@@ -1,0 +1,432 @@
+{
+  "api/Global.CameraMove.html": {
+    "href": "api/Global.CameraMove.html",
+    "title": "Class CameraMove | 兵棋项目API文档",
+    "keywords": "Class CameraMove Inheritance object CameraMove Namespace: Global Assembly: cs.temp.dll.dll Syntax public class CameraMove : MonoBehaviour Methods AdjustPosition(float, float) Declaration public void AdjustPosition(float xDelta, float yDelta) Parameters Type Name Description float xDelta float yDelta"
+  },
+  "api/Global.ChatController.html": {
+    "href": "api/Global.ChatController.html",
+    "title": "Class ChatController | 兵棋项目API文档",
+    "keywords": "Class ChatController Inheritance object ChatController Namespace: Global Assembly: cs.temp.dll.dll Syntax public class ChatController : MonoBehaviour Fields ChatDisplayOutput Declaration public TMP_Text ChatDisplayOutput Field Value Type Description TMP_Text ChatInputField Declaration public TMP_InputField ChatInputField Field Value Type Description TMP_InputField ChatScrollbar Declaration public Scrollbar ChatScrollbar Field Value Type Description Scrollbar"
+  },
+  "api/Global.DropdownSample.html": {
+    "href": "api/Global.DropdownSample.html",
+    "title": "Class DropdownSample | 兵棋项目API文档",
+    "keywords": "Class DropdownSample Inheritance object DropdownSample Namespace: Global Assembly: cs.temp.dll.dll Syntax public class DropdownSample : MonoBehaviour Methods OnButtonClick() Declaration public void OnButtonClick()"
+  },
+  "api/Global.EnvMapAnimator.html": {
+    "href": "api/Global.EnvMapAnimator.html",
+    "title": "Class EnvMapAnimator | 兵棋项目API文档",
+    "keywords": "Class EnvMapAnimator Inheritance object EnvMapAnimator Namespace: Global Assembly: cs.temp.dll.dll Syntax public class EnvMapAnimator : MonoBehaviour Fields RotationSpeeds Declaration public Vector3 RotationSpeeds Field Value Type Description Vector3"
+  },
+  "api/Global.GameController.html": {
+    "href": "api/Global.GameController.html",
+    "title": "Class GameController | 兵棋项目API文档",
+    "keywords": "Class GameController ��Ϸ���ƽű� Inheritance object GameController Namespace: Global Assembly: cs.temp.dll.dll Syntax public class GameController : MonoBehaviour Fields selectedHexes ��� ����ѡ�еġ����Ǹ񡱵���Ϸ���� Declaration public static List<GameObject> selectedHexes Field Value Type Description System.Collections.Generic.List<T><GameObject>"
+  },
+  "api/Global.GridDirection.html": {
+    "href": "api/Global.GridDirection.html",
+    "title": "Enum GridDirection | 兵棋项目API文档",
+    "keywords": "Enum GridDirection 六角格的六个方向，顺序是从右上角开始顺时针 Namespace: Global Assembly: cs.temp.dll.dll Syntax public enum GridDirection Fields Name Description East NorthEast NorthWest SouthEast SouthWest West"
+  },
+  "api/Global.HexGrid.html": {
+    "href": "api/Global.HexGrid.html",
+    "title": "Class HexGrid | 兵棋项目API文档",
+    "keywords": "Class HexGrid 格子 Inheritance object HexGrid Namespace: Global Assembly: cs.temp.dll.dll Syntax public class HexGrid : MonoBehaviour Fields construction 该格的建筑建筑 Declaration public int construction Field Value Type Description int RedBorder 选中框 Declaration public GameObject RedBorder Field Value Type Description GameObject terrain 该格的地形 Declaration public TerrainType terrain Field Value Type Description TerrainType terrainRenderer 地形图片控制 Declaration public SpriteRenderer terrainRenderer Field Value Type Description SpriteRenderer Properties position 地图的坐标 Declaration public Vector2Int position { get; } Property Value Type Description Vector2Int Vector2Int (x,y) Methods GetAdjacentGrid(GridDirection) 根据方向获取相邻格子 Declaration public HexGrid GetAdjacentGrid(GridDirection dir) Parameters Type Name Description GridDirection dir 方向 Returns Type Description HexGrid 格子的数据 GetAdjacentGrids() 获取相邻的所有格子 Declaration public HexGrid[] GetAdjacentGrids() Returns Type Description HexGrid[] 相邻的所有格子数据 OnSelected() 当此格被选中/取消选中时调用 Declaration public void OnSelected() SetBorderStatus(bool) 设置该格的显示状态，若显示状态与实际显示状态不同以isShow为准 Declaration public void SetBorderStatus(bool isShow) Parameters Type Name Description bool isShow 是否显示 SetMapHexElement(int, int) Declaration public void SetMapHexElement(int x, int y) Parameters Type Name Description int x int y"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | 兵棋项目API文档",
+    "keywords": "Namespace Classes CameraMove ChatController DropdownSample EnvMapAnimator GameController ��Ϸ���ƽű� HexGrid 格子 MapHexElement ��һ�����Ǹ�ĵ��Ρ���������������·����Ϣչʾ���� MonoSingleton<T> MonoSingletonPathAttribute MonoSingletonProperty<T> PersistentMonoSingleton<T> ReplaceableMonoSingleton<T> ScriptableSingletonProperty<T> Singleton<T> SingletonProperty<T> Interfaces ISingleton 单例接口 Enums GridDirection 六角格的六个方向，顺序是从右上角开始顺时针 TerrainType 地形"
+  },
+  "api/Global.ISingleton.html": {
+    "href": "api/Global.ISingleton.html",
+    "title": "Interface ISingleton | 兵棋项目API文档",
+    "keywords": "Interface ISingleton 单例接口 Namespace: Global Assembly: cs.temp.dll.dll Syntax public interface ISingleton Methods OnSingletonInit() 单例初始化(继承当前接口的类都需要实现该方法) Declaration void OnSingletonInit()"
+  },
+  "api/Global.MapHexElement.html": {
+    "href": "api/Global.MapHexElement.html",
+    "title": "Class MapHexElement | 兵棋项目API文档",
+    "keywords": "Class MapHexElement ��һ�����Ǹ�ĵ��Ρ���������������·����Ϣչʾ���� Inheritance object MapHexElement Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public class MapHexElement Properties construction ���� Declaration public int construction { get; set; } Property Value Type Description int int isRouteCovered ��������Ƿ���· Declaration public bool isRouteCovered { get; set; } Property Value Type Description bool isWideRoad �Ƿ�Ϊ��· Declaration public bool isWideRoad { get; set; } Property Value Type Description bool position ������� Declaration public Vector2Int position { get; set; } Property Value Type Description Vector2Int Vector2Int terrain �������� Declaration public TerrainType terrain { get; set; } Property Value Type Description TerrainType TerrainType"
+  },
+  "api/Global.MonoSingleton-1.html": {
+    "href": "api/Global.MonoSingleton-1.html",
+    "title": "Class MonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class MonoSingleton<T> Inheritance object MonoSingleton<T> MapManager Implements ISingleton Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class MonoSingleton<T> : MonoBehaviour, ISingleton where T : MonoSingleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性：封装相关实例对象 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnApplicationQuit() 应用程序退出：释放当前对象并销毁相关GameObject Declaration protected virtual void OnApplicationQuit() OnDestroy() 释放当前对象 Declaration protected virtual void OnDestroy() OnSingletonInit() 实现接口的单例初始化 Declaration public virtual void OnSingletonInit() Implements ISingleton"
+  },
+  "api/Global.MonoSingletonPathAttribute.html": {
+    "href": "api/Global.MonoSingletonPathAttribute.html",
+    "title": "Class MonoSingletonPathAttribute | 兵棋项目API文档",
+    "keywords": "Class MonoSingletonPathAttribute Inheritance object MonoSingletonPathAttribute Namespace: Global Assembly: cs.temp.dll.dll Syntax public class MonoSingletonPathAttribute : Attribute Constructors MonoSingletonPathAttribute(string) Declaration public MonoSingletonPathAttribute(string pathInHierarchy) Parameters Type Name Description string pathInHierarchy Properties PathInHierarchy Declaration public string PathInHierarchy { get; } Property Value Type Description string"
+  },
+  "api/Global.MonoSingletonProperty-1.html": {
+    "href": "api/Global.MonoSingletonProperty-1.html",
+    "title": "Class MonoSingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class MonoSingletonProperty<T> Inheritance object MonoSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public static class MonoSingletonProperty<T> where T : MonoBehaviour, ISingleton Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose()"
+  },
+  "api/Global.PersistentMonoSingleton-1.html": {
+    "href": "api/Global.PersistentMonoSingleton-1.html",
+    "title": "Class PersistentMonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class PersistentMonoSingleton<T> Inheritance object PersistentMonoSingleton<T> Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class PersistentMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields mEnabled Declaration protected bool mEnabled Field Value Type Description bool mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/Global.ReplaceableMonoSingleton-1.html": {
+    "href": "api/Global.ReplaceableMonoSingleton-1.html",
+    "title": "Class ReplaceableMonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class ReplaceableMonoSingleton<T> Inheritance object ReplaceableMonoSingleton<T> Namespace: Global Assembly: cs.temp.dll.dll Syntax public class ReplaceableMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields InitializationTime Declaration public float InitializationTime Field Value Type Description float mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/Global.ScriptableSingletonProperty-1.html": {
+    "href": "api/Global.ScriptableSingletonProperty-1.html",
+    "title": "Class ScriptableSingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class ScriptableSingletonProperty<T> Inheritance object ScriptableSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public class ScriptableSingletonProperty<T> where T : ScriptableObject Type Parameters Name Description T Fields ScriptableLoader Declaration public static Func<string, T> ScriptableLoader Field Value Type Description Func<, ><string, T> Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose() InstanceWithLoader(Func<string, T>) Declaration public static T InstanceWithLoader(Func<string, T> loader) Parameters Type Name Description Func<, ><string, T> loader Returns Type Description T"
+  },
+  "api/Global.Singleton-1.html": {
+    "href": "api/Global.Singleton-1.html",
+    "title": "Class Singleton<T> | 兵棋项目API文档",
+    "keywords": "Class Singleton<T> Inheritance object Singleton<T> Implements ISingleton Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class Singleton<T> : ISingleton where T : Singleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnSingletonInit() 单例初始化方法 Declaration public virtual void OnSingletonInit() Implements ISingleton"
+  },
+  "api/Global.SingletonProperty-1.html": {
+    "href": "api/Global.SingletonProperty-1.html",
+    "title": "Class SingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class SingletonProperty<T> Inheritance object SingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public static class SingletonProperty<T> where T : class, ISingleton Type Parameters Name Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public static void Dispose()"
+  },
+  "api/Global.TerrainType.html": {
+    "href": "api/Global.TerrainType.html",
+    "title": "Enum TerrainType | 兵棋项目API文档",
+    "keywords": "Enum TerrainType 地形 Namespace: Global Assembly: cs.temp.dll.dll Syntax public enum TerrainType Fields Name Description DForest Forest GRiver Hill MRiver None Plain"
+  },
+  "api/MilitaryGame.MapEditor.GeneralPanel.html": {
+    "href": "api/MilitaryGame.MapEditor.GeneralPanel.html",
+    "title": "Class GeneralPanel | 兵棋项目API文档",
+    "keywords": "Class GeneralPanel Inheritance object GeneralPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class GeneralPanel : MonoBehaviour Fields createMapBtn 创建地图按钮 Declaration public Button createMapBtn Field Value Type Description Button deleteMapBtn 删除地图按钮 Declaration public Button deleteMapBtn Field Value Type Description Button loadMapBtn 加载地图按钮 Declaration public Button loadMapBtn Field Value Type Description Button loadPanel 加载地图面板 Declaration public GameObject loadPanel Field Value Type Description GameObject MapHeight 地图高度输入区 Declaration public InputField MapHeight Field Value Type Description InputField MapWidth 地图宽度输入区 Declaration public InputField MapWidth Field Value Type Description InputField roadPanel 道路面板 Declaration public GameObject roadPanel Field Value Type Description GameObject roadPanelBtn 道路面板呼出按钮 Declaration public Button roadPanelBtn Field Value Type Description Button saveMapBtn 保存地图按钮 Declaration public Button saveMapBtn Field Value Type Description Button savePanel 保存地图面板 Declaration public GameObject savePanel Field Value Type Description GameObject terrainPanel 地形面板 Declaration public GameObject terrainPanel Field Value Type Description GameObject terrainPanelBtn 地形面板呼出按钮 Declaration public Button terrainPanelBtn Field Value Type Description Button Methods CreateMap() 创建地图方法 Declaration public void CreateMap() DeleteMap() 清空地图方法 Declaration public void DeleteMap() LoadMap() 加载地图方法 Declaration public void LoadMap()"
+  },
+  "api/MilitaryGame.MapEditor.html": {
+    "href": "api/MilitaryGame.MapEditor.html",
+    "title": "Namespace MilitaryGame.MapEditor | 兵棋项目API文档",
+    "keywords": "Namespace MilitaryGame.MapEditor Classes GeneralPanel LoadPanel MapData 整个地图的数据结构 MapManager 地图管理器 MapViewContent 加载面板的显示地图信息的地方 Route 道路的组件 RoutePanel 道路面板 SaveLoadSystem SavePanel 保存面板 TerrainController 地形控制 TerrainPanel 地形面板 Interfaces ISaveLoadSystem"
+  },
+  "api/MilitaryGame.MapEditor.ISaveLoadSystem.html": {
+    "href": "api/MilitaryGame.MapEditor.ISaveLoadSystem.html",
+    "title": "Interface ISaveLoadSystem | 兵棋项目API文档",
+    "keywords": "Interface ISaveLoadSystem Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public interface ISaveLoadSystem Methods Load(MapData) 加载地图 Declaration bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool 是否加载成功 Save(string) 保存地图 Declaration string Save(string fileName = \"\") Parameters Type Name Description string fileName Returns Type Description string 存档文件名字"
+  },
+  "api/MilitaryGame.MapEditor.LoadPanel.html": {
+    "href": "api/MilitaryGame.MapEditor.LoadPanel.html",
+    "title": "Class LoadPanel | 兵棋项目API文档",
+    "keywords": "Class LoadPanel Inheritance object LoadPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class LoadPanel : MonoBehaviour Fields goParent 滚动视图 Declaration public Transform goParent Field Value Type Description Transform itemImagePrefab 显示地图信息的预制体 Declaration public GameObject itemImagePrefab Field Value Type Description GameObject loadButton 加载按钮 Declaration public Button loadButton Field Value Type Description Button quitButton 关闭面板按钮 Declaration public Button quitButton Field Value Type Description Button scrollbar 滚动的按钮，用于控制其大小 Declaration public Scrollbar scrollbar Field Value Type Description Scrollbar Methods LoadFromFile() 负责加载文件并处理视图对象。 Declaration public void LoadFromFile()"
+  },
+  "api/MilitaryGame.MapEditor.MapData.html": {
+    "href": "api/MilitaryGame.MapEditor.MapData.html",
+    "title": "Class MapData | 兵棋项目API文档",
+    "keywords": "Class MapData 整个地图的数据结构 Inheritance object MapData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class MapData Fields time 地图创建时间 Declaration public DateTime time Field Value Type Description DateTime Properties height 地图高度 Declaration public int height { get; set; } Property Value Type Description int int mapHexElements 每个格子的数据 Declaration public MapHexElement[,] mapHexElements { get; set; } Property Value Type Description MapHexElement[,] MapHexElement[,] width 地图宽度 Declaration public int width { get; set; } Property Value Type Description int int"
+  },
+  "api/MilitaryGame.MapEditor.MapManager.html": {
+    "href": "api/MilitaryGame.MapEditor.MapManager.html",
+    "title": "Class MapManager | 兵棋项目API文档",
+    "keywords": "Class MapManager 地图管理器 Inheritance object MonoSingleton<MapManager> MapManager Implements ISingleton Inherited Members MonoSingleton<MapManager>.mInstance MonoSingleton<MapManager>.Instance MonoSingleton<MapManager>.OnSingletonInit() MonoSingleton<MapManager>.Dispose() MonoSingleton<MapManager>.OnApplicationQuit() MonoSingleton<MapManager>.OnDestroy() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class MapManager : MonoSingleton<MapManager>, ISingleton Fields hasRouteGrid 没用，先放着 Declaration public HashSet<GameObject> hasRouteGrid Field Value Type Description System.Collections.Generic.HashSet<T><GameObject> hexGrid 存放地图上的所有“六角格”的游戏物体 Declaration public GameObject[,] hexGrid Field Value Type Description GameObject[,] mapHeight 地图高度 Declaration public int mapHeight Field Value Type Description int mapWidth 地图宽度 Declaration public int mapWidth Field Value Type Description int saveLoadSystem 保存加载系统 Declaration public SaveLoadSystem saveLoadSystem Field Value Type Description SaveLoadSystem Methods CreateMap(int, int) 创建地图 Declaration public void CreateMap(int hor, int vert) Parameters Type Name Description int hor 地图长度 int vert 地图宽度 DeleteMap() 删除地图 Declaration public void DeleteMap() GetHexPosition(int, int) 输入参数行列坐标（i，j），输出该格子相对于地图的坐标 Declaration public Vector3 GetHexPosition(int i, int j) Parameters Type Name Description int i x int j y Returns Type Description Vector3 Vector3地图坐标 Implements ISingleton"
+  },
+  "api/MilitaryGame.MapEditor.MapViewContent.html": {
+    "href": "api/MilitaryGame.MapEditor.MapViewContent.html",
+    "title": "Class MapViewContent | 兵棋项目API文档",
+    "keywords": "Class MapViewContent 加载面板的显示地图信息的地方 Inheritance object MapViewContent Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class MapViewContent : MonoBehaviour Fields button 本体是一个按钮，按下后代表加载这个地图 Declaration public Button button Field Value Type Description Button Name 地图名字 Declaration public TextMeshProUGUI Name Field Value Type Description TextMeshProUGUI size 地图大小 Declaration public TextMeshProUGUI size Field Value Type Description TextMeshProUGUI time 地图创建时间 Declaration public TextMeshProUGUI time Field Value Type Description TextMeshProUGUI Methods UpdateView(string) 更新地图信息 Declaration public void UpdateView(string inf) Parameters Type Name Description string inf 从索引文件中提取的信息"
+  },
+  "api/MilitaryGame.MapEditor.Route.html": {
+    "href": "api/MilitaryGame.MapEditor.Route.html",
+    "title": "Class Route | 兵棋项目API文档",
+    "keywords": "Class Route 道路的组件 Inheritance object Route Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class Route : MonoBehaviour Fields isRouteCovered 这个格子是否建了路 Declaration public bool isRouteCovered Field Value Type Description bool isWideRoad 是否为大路 Declaration public bool isWideRoad Field Value Type Description bool routePrefab 路的预制体 Declaration public GameObject routePrefab Field Value Type Description GameObject thisGrid 路所在的格子引用 Declaration public HexGrid thisGrid Field Value Type Description HexGrid Methods Create() 创建此格的路 Declaration public void Create() Destroy() 摧毁该格子上的路 Declaration public void Destroy() Switch() Declaration public void Switch() UpdateView() 道路显示更新 Declaration public void UpdateView()"
+  },
+  "api/MilitaryGame.MapEditor.RoutePanel.html": {
+    "href": "api/MilitaryGame.MapEditor.RoutePanel.html",
+    "title": "Class RoutePanel | 兵棋项目API文档",
+    "keywords": "Class RoutePanel 道路面板 Inheritance object RoutePanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class RoutePanel : MonoBehaviour Fields createRouteBtn 创建道路的按钮 Declaration public Button createRouteBtn Field Value Type Description Button destroyRouteBtn 摧毁道路的按钮 Declaration public Button destroyRouteBtn Field Value Type Description Button switchRouteBtn 切换大/小路的按钮 Declaration public Button switchRouteBtn Field Value Type Description Button"
+  },
+  "api/MilitaryGame.MapEditor.SaveLoadSystem.html": {
+    "href": "api/MilitaryGame.MapEditor.SaveLoadSystem.html",
+    "title": "Class SaveLoadSystem | 兵棋项目API文档",
+    "keywords": "Class SaveLoadSystem Inheritance object SaveLoadSystem Implements ISaveLoadSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class SaveLoadSystem : ISaveLoadSystem Methods Load(MapData) Declaration public bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool Save(string) Declaration public string Save(string fileName = \"\") Parameters Type Name Description string fileName Returns Type Description string Implements ISaveLoadSystem"
+  },
+  "api/MilitaryGame.MapEditor.SavePanel.html": {
+    "href": "api/MilitaryGame.MapEditor.SavePanel.html",
+    "title": "Class SavePanel | 兵棋项目API文档",
+    "keywords": "Class SavePanel 保存面板 Inheritance object SavePanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class SavePanel : MonoBehaviour Fields button 保存按钮 Declaration public Button button Field Value Type Description Button inputField 输入的文本框 Declaration public TMP_InputField inputField Field Value Type Description TMP_InputField Methods SaveMap() 保存当前地图状态 Declaration public void SaveMap()"
+  },
+  "api/MilitaryGame.MapEditor.TerrainController.html": {
+    "href": "api/MilitaryGame.MapEditor.TerrainController.html",
+    "title": "Class TerrainController | 兵棋项目API文档",
+    "keywords": "Class TerrainController 地形控制 Inheritance object TerrainController Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class TerrainController : MonoBehaviour Fields thisGrid 所在的格子 Declaration public HexGrid thisGrid Field Value Type Description HexGrid Methods SetTerrain(TerrainType, bool) 设置地形 Declaration public void SetTerrain(TerrainType terrain, bool isLoad) Parameters Type Name Description TerrainType terrain 地形 bool isLoad 是否为加载时调用"
+  },
+  "api/MilitaryGame.MapEditor.TerrainPanel.html": {
+    "href": "api/MilitaryGame.MapEditor.TerrainPanel.html",
+    "title": "Class TerrainPanel | 兵棋项目API文档",
+    "keywords": "Class TerrainPanel 地形面板 Inheritance object TerrainPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class TerrainPanel : MonoBehaviour Fields deepForestBtn 深林 Declaration public Button deepForestBtn Field Value Type Description Button forestBtn 森林 Declaration public Button forestBtn Field Value Type Description Button greatRiverBtn 大河 Declaration public Button greatRiverBtn Field Value Type Description Button hillBtn 山地 Declaration public Button hillBtn Field Value Type Description Button miniRiverBtn 小河 Declaration public Button miniRiverBtn Field Value Type Description Button plainBtn 平原 Declaration public Button plainBtn Field Value Type Description Button recoverBtn Declaration public Button recoverBtn Field Value Type Description Button Methods SetTerrain(TerrainType) 平原1，山2，小森林3，大森林4，小河流5，大河流6 Declaration public void SetTerrain(TerrainType terrain) Parameters Type Name Description TerrainType terrain"
+  },
+  "api/System.Collections.Generic.html": {
+    "href": "api/System.Collections.Generic.html",
+    "title": "Namespace System.Collections.Generic | 兵棋项目API文档",
+    "keywords": "Namespace System.Collections.Generic Classes PriorityQueue<TElement, TPriority> Represents a min priority queue. PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Enumerates the contents of a PriorityQueue<TElement, TPriority>, without any ordering guarantees. Structs PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator Enumerates the element and priority pairs of a PriorityQueue<TElement, TPriority>, without any ordering guarantees."
+  },
+  "api/System.Collections.Generic.PriorityQueue-2.html": {
+    "href": "api/System.Collections.Generic.PriorityQueue-2.html",
+    "title": "Class PriorityQueue<TElement, TPriority> | 兵棋项目API文档",
+    "keywords": "Class PriorityQueue<TElement, TPriority> Represents a min priority queue. Inheritance object PriorityQueue<TElement, TPriority> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: System.System.Collections.Generic Assembly: cs.temp.dll.dll Syntax public class PriorityQueue<TElement, TPriority> Type Parameters Name Description TElement Specifies the type of elements in the queue. TPriority Specifies the type of priority associated with enqueued elements. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Constructors PriorityQueue() Initializes a new instance of the PriorityQueue<TElement, TPriority> class. Declaration public PriorityQueue() Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. PriorityQueue(IComparer<TPriority>) Initializes a new instance of the PriorityQueue<TElement, TPriority> class with the specified custom priority comparer. Declaration public PriorityQueue(IComparer<TPriority> comparer) Parameters Type Name Description System.Collections.Generic.IComparer<T><TPriority> comparer Custom comparer dictating the ordering of elements. Uses System.Collections.Generic.Comparer`1.Default if the argument is null. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. PriorityQueue(IEnumerable<(TElement Element, TPriority Priority)>, IComparer<TPriority>?) Initializes a new instance of the PriorityQueue<TElement, TPriority> class that is populated with the specified elements and priorities, and with the specified custom priority comparer. Declaration public PriorityQueue(IEnumerable<(TElement Element, TPriority Priority)> items, IComparer<TPriority>? comparer) Parameters Type Name Description System.Collections.Generic.IEnumerable<T><(TElement Element, TPriority Priority)> items The pairs of elements and priorities with which to populate the queue. System.Collections.Generic.IComparer<T><TPriority> comparer Custom comparer dictating the ordering of elements. Uses System.Collections.Generic.Comparer`1.Default if the argument is null. Remarks Constructs the heap using a heapify operation, which is generally faster than enqueuing individual elements sequentially. Exceptions Type Condition System.ArgumentNullException The specified items argument was null. PriorityQueue(IEnumerable<(TElement Element, TPriority Priority)>) Initializes a new instance of the PriorityQueue<TElement, TPriority> class that is populated with the specified elements and priorities. Declaration public PriorityQueue(IEnumerable<(TElement Element, TPriority Priority)> items) Parameters Type Name Description System.Collections.Generic.IEnumerable<T><(TElement Element, TPriority Priority)> items The pairs of elements and priorities with which to populate the queue. Remarks Constructs the heap using a heapify operation, which is generally faster than enqueuing individual elements sequentially. Exceptions Type Condition System.ArgumentNullException The specified items argument was null. PriorityQueue(int, IComparer<TPriority>) Initializes a new instance of the PriorityQueue<TElement, TPriority> class with the specified initial capacity and custom priority comparer. Declaration public PriorityQueue(int initialCapacity, IComparer<TPriority> comparer) Parameters Type Name Description int initialCapacity Initial capacity to allocate in the underlying heap array. System.Collections.Generic.IComparer<T><TPriority> comparer Custom comparer dictating the ordering of elements. Uses System.Collections.Generic.Comparer`1.Default if the argument is null. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.ArgumentOutOfRangeException The specified initialCapacity was negative. PriorityQueue(int) Initializes a new instance of the PriorityQueue<TElement, TPriority> class with the specified initial capacity. Declaration public PriorityQueue(int initialCapacity) Parameters Type Name Description int initialCapacity Initial capacity to allocate in the underlying heap array. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.ArgumentOutOfRangeException The specified initialCapacity was negative. Properties Comparer Gets the priority comparer used by the PriorityQueue<TElement, TPriority>. Declaration public IComparer<TPriority> Comparer { get; } Property Value Type Description System.Collections.Generic.IComparer<T><TPriority> Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Count Gets the number of elements contained in the PriorityQueue<TElement, TPriority>. Declaration public int Count { get; } Property Value Type Description int Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. UnorderedItems Gets a collection that enumerates the elements of the queue in an unordered manner. Declaration public PriorityQueue<TElement, TPriority>.UnorderedItemsCollection UnorderedItems { get; } Property Value Type Description PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Remarks The enumeration does not order items by priority, since that would require N * log(N) time and N space. Items are instead enumerated following the internal array heap layout. Methods Clear() Removes all items from the PriorityQueue<TElement, TPriority>. Declaration public void Clear() Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Dequeue() Removes and returns the minimal element from the PriorityQueue<TElement, TPriority>. Declaration public TElement Dequeue() Returns Type Description TElement The minimal element of the PriorityQueue<TElement, TPriority>. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.InvalidOperationException The queue is empty. DequeueEnqueue(TElement, TPriority) Removes the minimal element and then immediately adds the specified element with associated priority to the PriorityQueue<TElement, TPriority>, Declaration public TElement DequeueEnqueue(TElement element, TPriority priority) Parameters Type Name Description TElement element The element to add to the PriorityQueue<TElement, TPriority>. TPriority priority The priority with which to associate the new element. Returns Type Description TElement The minimal element removed before performing the enqueue operation. Remarks Implements an extract-then-insert heap operation that is generally more efficient than sequencing Dequeue and Enqueue operations: in the worst case scenario only one shift-down operation is required. Exceptions Type Condition System.InvalidOperationException The queue is empty. Enqueue(TElement, TPriority) Adds the specified element with associated priority to the PriorityQueue<TElement, TPriority>. Declaration public void Enqueue(TElement element, TPriority priority) Parameters Type Name Description TElement element The element to add to the PriorityQueue<TElement, TPriority>. TPriority priority The priority with which to associate the new element. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. EnqueueDequeue(TElement, TPriority) Adds the specified element with associated priority to the PriorityQueue<TElement, TPriority>, and immediately removes the minimal element, returning the result. Declaration public TElement EnqueueDequeue(TElement element, TPriority priority) Parameters Type Name Description TElement element The element to add to the PriorityQueue<TElement, TPriority>. TPriority priority The priority with which to associate the new element. Returns Type Description TElement The minimal element removed after the enqueue operation. Remarks Implements an insert-then-extract heap operation that is generally more efficient than sequencing Enqueue and Dequeue operations: in the worst case scenario only one shift-down operation is required. EnqueueRange(IEnumerable<TElement>, TPriority) Enqueues a sequence of elements pairs to the PriorityQueue<TElement, TPriority>, all associated with the specified priority. Declaration public void EnqueueRange(IEnumerable<TElement> elements, TPriority priority) Parameters Type Name Description System.Collections.Generic.IEnumerable<T><TElement> elements The elements to add to the queue. TPriority priority The priority to associate with the new elements. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.ArgumentNullException The specified elements argument was null. EnqueueRange(IEnumerable<(TElement Element, TPriority Priority)>) Enqueues a sequence of element/priority pairs to the PriorityQueue<TElement, TPriority>. Declaration public void EnqueueRange(IEnumerable<(TElement Element, TPriority Priority)> items) Parameters Type Name Description System.Collections.Generic.IEnumerable<T><(TElement Element, TPriority Priority)> items The pairs of elements and priorities to add to the queue. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.ArgumentNullException The specified items argument was null. EnsureCapacity(int) Ensures that the PriorityQueue<TElement, TPriority> can hold up to capacity items without further expansion of its backing storage. Declaration public int EnsureCapacity(int capacity) Parameters Type Name Description int capacity The minimum capacity to be used. Returns Type Description int The current capacity of the PriorityQueue<TElement, TPriority>. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.ArgumentOutOfRangeException The specified capacity is negative. Peek() Returns the minimal element from the PriorityQueue<TElement, TPriority> without removing it. Declaration public TElement Peek() Returns Type Description TElement The minimal element of the PriorityQueue<TElement, TPriority>. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. Exceptions Type Condition System.InvalidOperationException The PriorityQueue<TElement, TPriority> is empty. Remove(TElement, out TElement, out TPriority, IEqualityComparer<TElement>) Removes the first occurrence that equals the specified parameter. Declaration public bool Remove(TElement element, out TElement removedElement, out TPriority priority, IEqualityComparer<TElement> equalityComparer = null) Parameters Type Name Description TElement element The element to try to remove. TElement removedElement The actual element that got removed from the queue. TPriority priority The priority value associated with the removed element. System.Collections.Generic.IEqualityComparer<T><TElement> equalityComparer The equality comparer governing element equality. Returns Type Description bool true if matching entry was found and removed, false otherwise. Remarks The method performs a linear-time scan of every element in the heap, removing the first value found to match the element parameter. In case of duplicate entries, what entry does get removed is non-deterministic and does not take priority into account. If no equalityComparer is specified, System.Collections.Generic.EqualityComparer`1.Default will be used instead. TrimExcess() Sets the capacity to the actual number of items in the PriorityQueue<TElement, TPriority>, if that is less than 90 percent of current capacity. Declaration public void TrimExcess() Remarks This method can be used to minimize a collection's memory overhead if no new elements will be added to the collection. TryDequeue(out TElement, out TPriority) Removes the minimal element from the PriorityQueue<TElement, TPriority>, and copies it to the element parameter, and its associated priority to the priority parameter. Declaration public bool TryDequeue(out TElement element, out TPriority priority) Parameters Type Name Description TElement element The removed element. TPriority priority The priority associated with the removed element. Returns Type Description bool true if the element is successfully removed; false if the PriorityQueue<TElement, TPriority> is empty. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first. TryPeek(out TElement, out TPriority) Returns a value that indicates whether there is a minimal element in the PriorityQueue<TElement, TPriority>, and if one is present, copies it to the element parameter, and its associated priority to the priority parameter. The element is not removed from the PriorityQueue<TElement, TPriority>. Declaration public bool TryPeek(out TElement element, out TPriority priority) Parameters Type Name Description TElement element The minimal element in the queue. TPriority priority The priority associated with the minimal element. Returns Type Description bool true if there is a minimal element; false if the PriorityQueue<TElement, TPriority> is empty. Remarks Implements an array-backed quaternary min-heap. Each element is enqueued with an associated priority that determines the dequeue order: elements with the lowest priority get dequeued first."
+  },
+  "api/System.Collections.Generic.PriorityQueue-2.UnorderedItemsCollection.Enumerator.html": {
+    "href": "api/System.Collections.Generic.PriorityQueue-2.UnorderedItemsCollection.Enumerator.html",
+    "title": "Struct PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator | 兵棋项目API文档",
+    "keywords": "Struct PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator Enumerates the element and priority pairs of a PriorityQueue<TElement, TPriority>, without any ordering guarantees. Implements System.Collections.Generic.IEnumerator<T><(TElement Element, TPriority Priority)> System.Collections.IEnumerator System.IDisposable Inherited Members System.ValueType.Equals(object) System.ValueType.GetHashCode() System.ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Namespace: System.System.Collections.Generic Assembly: cs.temp.dll.dll Syntax public struct PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator : IEnumerator<(TElement Element, TPriority Priority)>, IEnumerator, IDisposable Properties Current Gets the element at the current position of the enumerator. Declaration public (TElement Element, TPriority Priority) Current { get; } Property Value Type Description (TElement Element, TPriority Priority) Methods Dispose() Releases all resources used by the PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator. Declaration public void Dispose() MoveNext() Advances the enumerator to the next element of the UnorderedItems. Declaration public bool MoveNext() Returns Type Description bool true if the enumerator was successfully advanced to the next element; false if the enumerator has passed the end of the collection. Explicit Interface Implementations IEnumerator.Current Declaration object IEnumerator.Current { get; } Returns Type Description object IEnumerator.Reset() Declaration void IEnumerator.Reset() Implements System.Collections.Generic.IEnumerator<T> System.Collections.IEnumerator System.IDisposable"
+  },
+  "api/System.Collections.Generic.PriorityQueue-2.UnorderedItemsCollection.html": {
+    "href": "api/System.Collections.Generic.PriorityQueue-2.UnorderedItemsCollection.html",
+    "title": "Class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection | 兵棋项目API文档",
+    "keywords": "Class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Enumerates the contents of a PriorityQueue<TElement, TPriority>, without any ordering guarantees. Inheritance object PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Implements System.Collections.Generic.IReadOnlyCollection<T><(TElement Element, TPriority Priority)> System.Collections.Generic.IEnumerable<T><(TElement Element, TPriority Priority)> System.Collections.ICollection System.Collections.IEnumerable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: System.System.Collections.Generic Assembly: cs.temp.dll.dll Syntax public sealed class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection : IReadOnlyCollection<(TElement Element, TPriority Priority)>, IEnumerable<(TElement Element, TPriority Priority)>, ICollection, IEnumerable Properties Count Declaration public int Count { get; } Property Value Type Description int Methods GetEnumerator() Returns an enumerator that iterates through the UnorderedItems. Declaration public PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator GetEnumerator() Returns Type Description PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator An PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator for the UnorderedItems. Explicit Interface Implementations IEnumerable<(TElement Element, TPriority Priority)>.GetEnumerator() Declaration IEnumerator<(TElement Element, TPriority Priority)> IEnumerable<(TElement Element, TPriority Priority)>.GetEnumerator() Returns Type Description System.Collections.Generic.IEnumerator<T><(TElement Element, TPriority Priority)> ICollection.CopyTo(Array, int) Declaration void ICollection.CopyTo(Array array, int index) Parameters Type Name Description System.Array array int index ICollection.IsSynchronized Declaration bool ICollection.IsSynchronized { get; } Returns Type Description bool ICollection.SyncRoot Declaration object ICollection.SyncRoot { get; } Returns Type Description object IEnumerable.GetEnumerator() Declaration IEnumerator IEnumerable.GetEnumerator() Returns Type Description System.Collections.IEnumerator Implements System.Collections.Generic.IReadOnlyCollection<T> System.Collections.Generic.IEnumerable<T> System.Collections.ICollection System.Collections.IEnumerable"
+  },
+  "api/SystemExtension.ArgumentExceptionExtention.html": {
+    "href": "api/SystemExtension.ArgumentExceptionExtention.html",
+    "title": "Class ArgumentExceptionExtention | 兵棋项目API文档",
+    "keywords": "Class ArgumentExceptionExtention Inheritance object ArgumentExceptionExtention Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: SystemExtension Assembly: cs.temp.dll.dll Syntax public static class ArgumentExceptionExtention Methods ThrowIfNegative(int, string) Throws an if value is negative. Declaration public static void ThrowIfNegative(int value, string paramName = null) Parameters Type Name Description int value The argument to validate as non-negative. string paramName The name of the parameter with which value corresponds. ThrowIfNull(object?, string?) Declaration public static void ThrowIfNull(object? argument, string? paramName = null) Parameters Type Name Description object argument string paramName"
+  },
+  "api/SystemExtension.html": {
+    "href": "api/SystemExtension.html",
+    "title": "Namespace SystemExtension | 兵棋项目API文档",
+    "keywords": "Namespace SystemExtension Classes ArgumentExceptionExtention"
+  },
+  "api/TMPro.Examples.Benchmark01_UGUI.html": {
+    "href": "api/TMPro.Examples.Benchmark01_UGUI.html",
+    "title": "Class Benchmark01_UGUI | 兵棋项目API文档",
+    "keywords": "Class Benchmark01_UGUI Inheritance object Benchmark01_UGUI Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class Benchmark01_UGUI : MonoBehaviour Fields BenchmarkType Declaration public int BenchmarkType Field Value Type Description int canvas Declaration public Canvas canvas Field Value Type Description Canvas TextMeshFont Declaration public Font TextMeshFont Field Value Type Description Font TMProFont Declaration public TMP_FontAsset TMProFont Field Value Type Description TMP_FontAsset"
+  },
+  "api/TMPro.Examples.Benchmark01.html": {
+    "href": "api/TMPro.Examples.Benchmark01.html",
+    "title": "Class Benchmark01 | 兵棋项目API文档",
+    "keywords": "Class Benchmark01 Inheritance object Benchmark01 Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class Benchmark01 : MonoBehaviour Fields BenchmarkType Declaration public int BenchmarkType Field Value Type Description int TextMeshFont Declaration public Font TextMeshFont Field Value Type Description Font TMProFont Declaration public TMP_FontAsset TMProFont Field Value Type Description TMP_FontAsset"
+  },
+  "api/TMPro.Examples.Benchmark02.html": {
+    "href": "api/TMPro.Examples.Benchmark02.html",
+    "title": "Class Benchmark02 | 兵棋项目API文档",
+    "keywords": "Class Benchmark02 Inheritance object Benchmark02 Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class Benchmark02 : MonoBehaviour Fields IsTextObjectScaleStatic Declaration public bool IsTextObjectScaleStatic Field Value Type Description bool NumberOfNPC Declaration public int NumberOfNPC Field Value Type Description int SpawnType Declaration public int SpawnType Field Value Type Description int"
+  },
+  "api/TMPro.Examples.Benchmark03.BenchmarkType.html": {
+    "href": "api/TMPro.Examples.Benchmark03.BenchmarkType.html",
+    "title": "Enum Benchmark03.BenchmarkType | 兵棋项目API文档",
+    "keywords": "Enum Benchmark03.BenchmarkType Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum Benchmark03.BenchmarkType Fields Name Description TEXTMESH_BITMAP TMP_BITMAP_MOBILE TMP_SDF TMP_SDF__MOBILE_SSD TMP_SDF_MOBILE"
+  },
+  "api/TMPro.Examples.Benchmark03.html": {
+    "href": "api/TMPro.Examples.Benchmark03.html",
+    "title": "Class Benchmark03 | 兵棋项目API文档",
+    "keywords": "Class Benchmark03 Inheritance object Benchmark03 Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class Benchmark03 : MonoBehaviour Fields Benchmark Declaration public Benchmark03.BenchmarkType Benchmark Field Value Type Description Benchmark03.BenchmarkType NumberOfSamples Declaration public int NumberOfSamples Field Value Type Description int SourceFont Declaration public Font SourceFont Field Value Type Description Font"
+  },
+  "api/TMPro.Examples.Benchmark04.html": {
+    "href": "api/TMPro.Examples.Benchmark04.html",
+    "title": "Class Benchmark04 | 兵棋项目API文档",
+    "keywords": "Class Benchmark04 Inheritance object Benchmark04 Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class Benchmark04 : MonoBehaviour Fields MaxPointSize Declaration public int MaxPointSize Field Value Type Description int MinPointSize Declaration public int MinPointSize Field Value Type Description int SpawnType Declaration public int SpawnType Field Value Type Description int Steps Declaration public int Steps Field Value Type Description int"
+  },
+  "api/TMPro.Examples.CameraController.CameraModes.html": {
+    "href": "api/TMPro.Examples.CameraController.CameraModes.html",
+    "title": "Enum CameraController.CameraModes | 兵棋项目API文档",
+    "keywords": "Enum CameraController.CameraModes Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum CameraController.CameraModes Fields Name Description Follow Free Isometric"
+  },
+  "api/TMPro.Examples.CameraController.html": {
+    "href": "api/TMPro.Examples.CameraController.html",
+    "title": "Class CameraController | 兵棋项目API文档",
+    "keywords": "Class CameraController Inheritance object CameraController Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class CameraController : MonoBehaviour Fields CameraMode Declaration public CameraController.CameraModes CameraMode Field Value Type Description CameraController.CameraModes CameraTarget Declaration public Transform CameraTarget Field Value Type Description Transform ElevationAngle Declaration public float ElevationAngle Field Value Type Description float FollowDistance Declaration public float FollowDistance Field Value Type Description float MaxElevationAngle Declaration public float MaxElevationAngle Field Value Type Description float MaxFollowDistance Declaration public float MaxFollowDistance Field Value Type Description float MinElevationAngle Declaration public float MinElevationAngle Field Value Type Description float MinFollowDistance Declaration public float MinFollowDistance Field Value Type Description float MovementSmoothing Declaration public bool MovementSmoothing Field Value Type Description bool MovementSmoothingValue Declaration public float MovementSmoothingValue Field Value Type Description float MoveSensitivity Declaration public float MoveSensitivity Field Value Type Description float OrbitalAngle Declaration public float OrbitalAngle Field Value Type Description float RotationSmoothing Declaration public bool RotationSmoothing Field Value Type Description bool RotationSmoothingValue Declaration public float RotationSmoothingValue Field Value Type Description float"
+  },
+  "api/TMPro.Examples.html": {
+    "href": "api/TMPro.Examples.html",
+    "title": "Namespace TMPro.Examples | 兵棋项目API文档",
+    "keywords": "Namespace TMPro.Examples Classes Benchmark01 Benchmark01_UGUI Benchmark02 Benchmark03 Benchmark04 CameraController ObjectSpin ShaderPropAnimator SimpleScript SkewTextExample TeleType TextConsoleSimulator TextMeshProFloatingText TextMeshSpawner TMP_ExampleScript_01 TMP_FrameRateCounter TMP_TextEventCheck TMP_TextInfoDebugTool TMP_TextSelector_A TMP_TextSelector_B TMP_UiFrameRateCounter TMPro_InstructionOverlay VertexColorCycler VertexJitter VertexShakeA VertexShakeB VertexZoom WarpTextExample Enums Benchmark03.BenchmarkType CameraController.CameraModes ObjectSpin.MotionType TMP_ExampleScript_01.objectType TMP_FrameRateCounter.FpsCounterAnchorPositions TMP_UiFrameRateCounter.FpsCounterAnchorPositions TMPro_InstructionOverlay.FpsCounterAnchorPositions"
+  },
+  "api/TMPro.Examples.ObjectSpin.html": {
+    "href": "api/TMPro.Examples.ObjectSpin.html",
+    "title": "Class ObjectSpin | 兵棋项目API文档",
+    "keywords": "Class ObjectSpin Inheritance object ObjectSpin Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class ObjectSpin : MonoBehaviour Fields Motion Declaration public ObjectSpin.MotionType Motion Field Value Type Description ObjectSpin.MotionType RotationRange Declaration public int RotationRange Field Value Type Description int SpinSpeed Declaration public float SpinSpeed Field Value Type Description float"
+  },
+  "api/TMPro.Examples.ObjectSpin.MotionType.html": {
+    "href": "api/TMPro.Examples.ObjectSpin.MotionType.html",
+    "title": "Enum ObjectSpin.MotionType | 兵棋项目API文档",
+    "keywords": "Enum ObjectSpin.MotionType Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum ObjectSpin.MotionType Fields Name Description BackAndForth Rotation Translation"
+  },
+  "api/TMPro.Examples.ShaderPropAnimator.html": {
+    "href": "api/TMPro.Examples.ShaderPropAnimator.html",
+    "title": "Class ShaderPropAnimator | 兵棋项目API文档",
+    "keywords": "Class ShaderPropAnimator Inheritance object ShaderPropAnimator Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class ShaderPropAnimator : MonoBehaviour Fields GlowCurve Declaration public AnimationCurve GlowCurve Field Value Type Description AnimationCurve m_frame Declaration public float m_frame Field Value Type Description float"
+  },
+  "api/TMPro.Examples.SimpleScript.html": {
+    "href": "api/TMPro.Examples.SimpleScript.html",
+    "title": "Class SimpleScript | 兵棋项目API文档",
+    "keywords": "Class SimpleScript Inheritance object SimpleScript Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class SimpleScript : MonoBehaviour"
+  },
+  "api/TMPro.Examples.SkewTextExample.html": {
+    "href": "api/TMPro.Examples.SkewTextExample.html",
+    "title": "Class SkewTextExample | 兵棋项目API文档",
+    "keywords": "Class SkewTextExample Inheritance object SkewTextExample Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class SkewTextExample : MonoBehaviour Fields CurveScale Declaration public float CurveScale Field Value Type Description float ShearAmount Declaration public float ShearAmount Field Value Type Description float VertexCurve Declaration public AnimationCurve VertexCurve Field Value Type Description AnimationCurve"
+  },
+  "api/TMPro.Examples.TeleType.html": {
+    "href": "api/TMPro.Examples.TeleType.html",
+    "title": "Class TeleType | 兵棋项目API文档",
+    "keywords": "Class TeleType Inheritance object TeleType Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TeleType : MonoBehaviour"
+  },
+  "api/TMPro.Examples.TextConsoleSimulator.html": {
+    "href": "api/TMPro.Examples.TextConsoleSimulator.html",
+    "title": "Class TextConsoleSimulator | 兵棋项目API文档",
+    "keywords": "Class TextConsoleSimulator Inheritance object TextConsoleSimulator Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TextConsoleSimulator : MonoBehaviour"
+  },
+  "api/TMPro.Examples.TextMeshProFloatingText.html": {
+    "href": "api/TMPro.Examples.TextMeshProFloatingText.html",
+    "title": "Class TextMeshProFloatingText | 兵棋项目API文档",
+    "keywords": "Class TextMeshProFloatingText Inheritance object TextMeshProFloatingText Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TextMeshProFloatingText : MonoBehaviour Fields IsTextObjectScaleStatic Declaration public bool IsTextObjectScaleStatic Field Value Type Description bool SpawnType Declaration public int SpawnType Field Value Type Description int TheFont Declaration public Font TheFont Field Value Type Description Font Methods DisplayTextMeshFloatingText() Declaration public IEnumerator DisplayTextMeshFloatingText() Returns Type Description System.Collections.IEnumerator DisplayTextMeshProFloatingText() Declaration public IEnumerator DisplayTextMeshProFloatingText() Returns Type Description System.Collections.IEnumerator"
+  },
+  "api/TMPro.Examples.TextMeshSpawner.html": {
+    "href": "api/TMPro.Examples.TextMeshSpawner.html",
+    "title": "Class TextMeshSpawner | 兵棋项目API文档",
+    "keywords": "Class TextMeshSpawner Inheritance object TextMeshSpawner Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TextMeshSpawner : MonoBehaviour Fields NumberOfNPC Declaration public int NumberOfNPC Field Value Type Description int SpawnType Declaration public int SpawnType Field Value Type Description int TheFont Declaration public Font TheFont Field Value Type Description Font"
+  },
+  "api/TMPro.Examples.TMP_ExampleScript_01.html": {
+    "href": "api/TMPro.Examples.TMP_ExampleScript_01.html",
+    "title": "Class TMP_ExampleScript_01 | 兵棋项目API文档",
+    "keywords": "Class TMP_ExampleScript_01 Inheritance object TMP_ExampleScript_01 Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_ExampleScript_01 : MonoBehaviour Fields isStatic Declaration public bool isStatic Field Value Type Description bool ObjectType Declaration public TMP_ExampleScript_01.objectType ObjectType Field Value Type Description TMP_ExampleScript_01.objectType"
+  },
+  "api/TMPro.Examples.TMP_ExampleScript_01.objectType.html": {
+    "href": "api/TMPro.Examples.TMP_ExampleScript_01.objectType.html",
+    "title": "Enum TMP_ExampleScript_01.objectType | 兵棋项目API文档",
+    "keywords": "Enum TMP_ExampleScript_01.objectType Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum TMP_ExampleScript_01.objectType Fields Name Description TextMeshPro TextMeshProUGUI"
+  },
+  "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.html": {
+    "href": "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.html",
+    "title": "Enum TMP_FrameRateCounter.FpsCounterAnchorPositions | 兵棋项目API文档",
+    "keywords": "Enum TMP_FrameRateCounter.FpsCounterAnchorPositions Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum TMP_FrameRateCounter.FpsCounterAnchorPositions Fields Name Description BottomLeft BottomRight TopLeft TopRight"
+  },
+  "api/TMPro.Examples.TMP_FrameRateCounter.html": {
+    "href": "api/TMPro.Examples.TMP_FrameRateCounter.html",
+    "title": "Class TMP_FrameRateCounter | 兵棋项目API文档",
+    "keywords": "Class TMP_FrameRateCounter Inheritance object TMP_FrameRateCounter Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_FrameRateCounter : MonoBehaviour Fields AnchorPosition Declaration public TMP_FrameRateCounter.FpsCounterAnchorPositions AnchorPosition Field Value Type Description TMP_FrameRateCounter.FpsCounterAnchorPositions UpdateInterval Declaration public float UpdateInterval Field Value Type Description float"
+  },
+  "api/TMPro.Examples.TMP_TextEventCheck.html": {
+    "href": "api/TMPro.Examples.TMP_TextEventCheck.html",
+    "title": "Class TMP_TextEventCheck | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventCheck Inheritance object TMP_TextEventCheck Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventCheck : MonoBehaviour Fields TextEventHandler Declaration public TMP_TextEventHandler TextEventHandler Field Value Type Description TMP_TextEventHandler"
+  },
+  "api/TMPro.Examples.TMP_TextInfoDebugTool.html": {
+    "href": "api/TMPro.Examples.TMP_TextInfoDebugTool.html",
+    "title": "Class TMP_TextInfoDebugTool | 兵棋项目API文档",
+    "keywords": "Class TMP_TextInfoDebugTool Inheritance object TMP_TextInfoDebugTool Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_TextInfoDebugTool : MonoBehaviour"
+  },
+  "api/TMPro.Examples.TMP_TextSelector_A.html": {
+    "href": "api/TMPro.Examples.TMP_TextSelector_A.html",
+    "title": "Class TMP_TextSelector_A | 兵棋项目API文档",
+    "keywords": "Class TMP_TextSelector_A Inheritance object TMP_TextSelector_A Implements IPointerEnterHandler IPointerExitHandler Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_TextSelector_A : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler Methods OnPointerEnter(PointerEventData) Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerEnterHandler IPointerExitHandler"
+  },
+  "api/TMPro.Examples.TMP_TextSelector_B.html": {
+    "href": "api/TMPro.Examples.TMP_TextSelector_B.html",
+    "title": "Class TMP_TextSelector_B | 兵棋项目API文档",
+    "keywords": "Class TMP_TextSelector_B Inheritance object TMP_TextSelector_B Implements IPointerEnterHandler IPointerExitHandler IPointerClickHandler IPointerUpHandler Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_TextSelector_B : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerUpHandler Fields TextPopup_Prefab_01 Declaration public RectTransform TextPopup_Prefab_01 Field Value Type Description RectTransform Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerEnter(PointerEventData) Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerUp(PointerEventData) Declaration public void OnPointerUp(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerEnterHandler IPointerExitHandler IPointerClickHandler IPointerUpHandler"
+  },
+  "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.html": {
+    "href": "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.html",
+    "title": "Enum TMP_UiFrameRateCounter.FpsCounterAnchorPositions | 兵棋项目API文档",
+    "keywords": "Enum TMP_UiFrameRateCounter.FpsCounterAnchorPositions Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum TMP_UiFrameRateCounter.FpsCounterAnchorPositions Fields Name Description BottomLeft BottomRight TopLeft TopRight"
+  },
+  "api/TMPro.Examples.TMP_UiFrameRateCounter.html": {
+    "href": "api/TMPro.Examples.TMP_UiFrameRateCounter.html",
+    "title": "Class TMP_UiFrameRateCounter | 兵棋项目API文档",
+    "keywords": "Class TMP_UiFrameRateCounter Inheritance object TMP_UiFrameRateCounter Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMP_UiFrameRateCounter : MonoBehaviour Fields AnchorPosition Declaration public TMP_UiFrameRateCounter.FpsCounterAnchorPositions AnchorPosition Field Value Type Description TMP_UiFrameRateCounter.FpsCounterAnchorPositions UpdateInterval Declaration public float UpdateInterval Field Value Type Description float"
+  },
+  "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.html": {
+    "href": "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.html",
+    "title": "Enum TMPro_InstructionOverlay.FpsCounterAnchorPositions | 兵棋项目API文档",
+    "keywords": "Enum TMPro_InstructionOverlay.FpsCounterAnchorPositions Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public enum TMPro_InstructionOverlay.FpsCounterAnchorPositions Fields Name Description BottomLeft BottomRight TopLeft TopRight"
+  },
+  "api/TMPro.Examples.TMPro_InstructionOverlay.html": {
+    "href": "api/TMPro.Examples.TMPro_InstructionOverlay.html",
+    "title": "Class TMPro_InstructionOverlay | 兵棋项目API文档",
+    "keywords": "Class TMPro_InstructionOverlay Inheritance object TMPro_InstructionOverlay Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class TMPro_InstructionOverlay : MonoBehaviour Fields AnchorPosition Declaration public TMPro_InstructionOverlay.FpsCounterAnchorPositions AnchorPosition Field Value Type Description TMPro_InstructionOverlay.FpsCounterAnchorPositions"
+  },
+  "api/TMPro.Examples.VertexColorCycler.html": {
+    "href": "api/TMPro.Examples.VertexColorCycler.html",
+    "title": "Class VertexColorCycler | 兵棋项目API文档",
+    "keywords": "Class VertexColorCycler Inheritance object VertexColorCycler Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class VertexColorCycler : MonoBehaviour"
+  },
+  "api/TMPro.Examples.VertexJitter.html": {
+    "href": "api/TMPro.Examples.VertexJitter.html",
+    "title": "Class VertexJitter | 兵棋项目API文档",
+    "keywords": "Class VertexJitter Inheritance object VertexJitter Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class VertexJitter : MonoBehaviour Fields AngleMultiplier Declaration public float AngleMultiplier Field Value Type Description float CurveScale Declaration public float CurveScale Field Value Type Description float SpeedMultiplier Declaration public float SpeedMultiplier Field Value Type Description float"
+  },
+  "api/TMPro.Examples.VertexShakeA.html": {
+    "href": "api/TMPro.Examples.VertexShakeA.html",
+    "title": "Class VertexShakeA | 兵棋项目API文档",
+    "keywords": "Class VertexShakeA Inheritance object VertexShakeA Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class VertexShakeA : MonoBehaviour Fields AngleMultiplier Declaration public float AngleMultiplier Field Value Type Description float RotationMultiplier Declaration public float RotationMultiplier Field Value Type Description float ScaleMultiplier Declaration public float ScaleMultiplier Field Value Type Description float SpeedMultiplier Declaration public float SpeedMultiplier Field Value Type Description float"
+  },
+  "api/TMPro.Examples.VertexShakeB.html": {
+    "href": "api/TMPro.Examples.VertexShakeB.html",
+    "title": "Class VertexShakeB | 兵棋项目API文档",
+    "keywords": "Class VertexShakeB Inheritance object VertexShakeB Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class VertexShakeB : MonoBehaviour Fields AngleMultiplier Declaration public float AngleMultiplier Field Value Type Description float CurveScale Declaration public float CurveScale Field Value Type Description float SpeedMultiplier Declaration public float SpeedMultiplier Field Value Type Description float"
+  },
+  "api/TMPro.Examples.VertexZoom.html": {
+    "href": "api/TMPro.Examples.VertexZoom.html",
+    "title": "Class VertexZoom | 兵棋项目API文档",
+    "keywords": "Class VertexZoom Inheritance object VertexZoom Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class VertexZoom : MonoBehaviour Fields AngleMultiplier Declaration public float AngleMultiplier Field Value Type Description float CurveScale Declaration public float CurveScale Field Value Type Description float SpeedMultiplier Declaration public float SpeedMultiplier Field Value Type Description float"
+  },
+  "api/TMPro.Examples.WarpTextExample.html": {
+    "href": "api/TMPro.Examples.WarpTextExample.html",
+    "title": "Class WarpTextExample | 兵棋项目API文档",
+    "keywords": "Class WarpTextExample Inheritance object WarpTextExample Namespace: TMPro.Examples Assembly: cs.temp.dll.dll Syntax public class WarpTextExample : MonoBehaviour Fields AngleMultiplier Declaration public float AngleMultiplier Field Value Type Description float CurveScale Declaration public float CurveScale Field Value Type Description float SpeedMultiplier Declaration public float SpeedMultiplier Field Value Type Description float VertexCurve Declaration public AnimationCurve VertexCurve Field Value Type Description AnimationCurve"
+  },
+  "api/TMPro.html": {
+    "href": "api/TMPro.html",
+    "title": "Namespace TMPro | 兵棋项目API文档",
+    "keywords": "Namespace TMPro Classes TMP_DigitValidator EXample of a Custom Character Input Validator to only allow digits from 0 to 9. TMP_PhoneNumberValidator Example of a Custom Character Input Validator to only allow phone number in the (800) 555-1212 format. TMP_TextEventHandler TMP_TextEventHandler.CharacterSelectionEvent TMP_TextEventHandler.LineSelectionEvent TMP_TextEventHandler.LinkSelectionEvent TMP_TextEventHandler.SpriteSelectionEvent TMP_TextEventHandler.WordSelectionEvent"
+  },
+  "api/TMPro.TMP_DigitValidator.html": {
+    "href": "api/TMPro.TMP_DigitValidator.html",
+    "title": "Class TMP_DigitValidator | 兵棋项目API文档",
+    "keywords": "Class TMP_DigitValidator EXample of a Custom Character Input Validator to only allow digits from 0 to 9. Inheritance object TMP_DigitValidator Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_DigitValidator : TMP_InputValidator Methods Validate(ref string, ref int, char) Declaration public override char Validate(ref string text, ref int pos, char ch) Parameters Type Name Description string text int pos char ch Returns Type Description char"
+  },
+  "api/TMPro.TMP_PhoneNumberValidator.html": {
+    "href": "api/TMPro.TMP_PhoneNumberValidator.html",
+    "title": "Class TMP_PhoneNumberValidator | 兵棋项目API文档",
+    "keywords": "Class TMP_PhoneNumberValidator Example of a Custom Character Input Validator to only allow phone number in the (800) 555-1212 format. Inheritance object TMP_PhoneNumberValidator Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_PhoneNumberValidator : TMP_InputValidator Methods Validate(ref string, ref int, char) Declaration public override char Validate(ref string text, ref int pos, char ch) Parameters Type Name Description string text int pos char ch Returns Type Description char"
+  },
+  "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.html",
+    "title": "Class TMP_TextEventHandler.CharacterSelectionEvent | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler.CharacterSelectionEvent Inheritance object TMP_TextEventHandler.CharacterSelectionEvent Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler.CharacterSelectionEvent : UnityEvent<char, int>"
+  },
+  "api/TMPro.TMP_TextEventHandler.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.html",
+    "title": "Class TMP_TextEventHandler | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler Inheritance object TMP_TextEventHandler Implements IPointerEnterHandler IPointerExitHandler Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler Properties onCharacterSelection Event delegate triggered when pointer is over a character. Declaration public TMP_TextEventHandler.CharacterSelectionEvent onCharacterSelection { get; set; } Property Value Type Description TMP_TextEventHandler.CharacterSelectionEvent onLineSelection Event delegate triggered when pointer is over a line. Declaration public TMP_TextEventHandler.LineSelectionEvent onLineSelection { get; set; } Property Value Type Description TMP_TextEventHandler.LineSelectionEvent onLinkSelection Event delegate triggered when pointer is over a link. Declaration public TMP_TextEventHandler.LinkSelectionEvent onLinkSelection { get; set; } Property Value Type Description TMP_TextEventHandler.LinkSelectionEvent onSpriteSelection Event delegate triggered when pointer is over a sprite. Declaration public TMP_TextEventHandler.SpriteSelectionEvent onSpriteSelection { get; set; } Property Value Type Description TMP_TextEventHandler.SpriteSelectionEvent onWordSelection Event delegate triggered when pointer is over a word. Declaration public TMP_TextEventHandler.WordSelectionEvent onWordSelection { get; set; } Property Value Type Description TMP_TextEventHandler.WordSelectionEvent Methods OnPointerEnter(PointerEventData) Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerEnterHandler IPointerExitHandler"
+  },
+  "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.html",
+    "title": "Class TMP_TextEventHandler.LineSelectionEvent | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler.LineSelectionEvent Inheritance object TMP_TextEventHandler.LineSelectionEvent Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler.LineSelectionEvent : UnityEvent<string, int, int>"
+  },
+  "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.html",
+    "title": "Class TMP_TextEventHandler.LinkSelectionEvent | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler.LinkSelectionEvent Inheritance object TMP_TextEventHandler.LinkSelectionEvent Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler.LinkSelectionEvent : UnityEvent<string, string, int>"
+  },
+  "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.html",
+    "title": "Class TMP_TextEventHandler.SpriteSelectionEvent | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler.SpriteSelectionEvent Inheritance object TMP_TextEventHandler.SpriteSelectionEvent Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler.SpriteSelectionEvent : UnityEvent<char, int>"
+  },
+  "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.html": {
+    "href": "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.html",
+    "title": "Class TMP_TextEventHandler.WordSelectionEvent | 兵棋项目API文档",
+    "keywords": "Class TMP_TextEventHandler.WordSelectionEvent Inheritance object TMP_TextEventHandler.WordSelectionEvent Namespace: TMPro Assembly: cs.temp.dll.dll Syntax public class TMP_TextEventHandler.WordSelectionEvent : UnityEvent<string, int, int>"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "DGUT-MilitaryGame | 兵棋项目API文档",
+    "keywords": "DGUT-MilitaryGame 这是兵棋所有函数的 API 文档，点击Script API以查看全部。"
+  },
+  "manual/coniunctis.html": {
+    "href": "manual/coniunctis.html",
+    "title": "Coniunctis nec qui et lanient monticolae vitae | 兵棋项目API文档",
+    "keywords": "Coniunctis nec qui et lanient monticolae vitae Opem ille Lorem markdownum cavis exululat inutile. Illi quem caeli, vola patruo difficili Iuppiter Patraeque, est ardebant ingeniis Troica intus Amore tibi mirantem superfusis, multum. Ut Achilles Et sitim Tibi modo ait temptant crinita daret Pariter in removi offensasque Lenaeo damno terra Phoebes ut damnosa classis ignes templo; tua ulla capillos ultima. Videre percusso plectro templa fuit diva minimum debere, quid nomen Philomela animis. Verbis istis flagrat vulnera inpediique ignes. Gravi filo obvius arte Amphionis Panes emisitque iubet. Latona te timens Latentia ante, eundem meritorum sunto! Elige in timuit templa ferrea, qui arma ligati stagnum turbant. Fraternaque aeternus, dedisse, naufragus corripiens ranas Amathunta et quod laetior culpa nec semper scorpius fuit vicem corpora ardere. Fallit in artus primordia, fratres per aliis, ipsi manu Asiae quod marmorea. mountain(googleVga, pngIphone); var radcabBitrate = dnsCronRecursion; gui(2); ipImageAix += vle(drm_cisc, horizontal + computer_key); jre(vaporware_adc_multi); Lumina ut tamen praesentia vidistis nymphae auroque Bromumque in portant furorem. Visa init resurgere praevitiat canibus et, dedignata turea, ilia. Pisenore mensura insula aere nec per o gladium causa: Alcidae. Veris sentes pallet, alta melius nostra amborum probant, deam. Iuventae dedimus nitidaque hunc traxisse sermonibus pectine flecti an pateres, hac ore gelidis foret semper. Sithon pelle. Bracchia Hippason videntur fateri hosti: palpitat animo est reliquit anne nam confusaque. Interea rex altis munera quem quae quoque rorant, rauco albescere scopulo moriensque parvo, pectus illa, quadrupedes. Notavit haec. Vertit pars quem Euryte casu usta iterum! Ablatum pectus corripiunt neu humus tamquam; ducens stellarum amore. Pulsisque latet, ad tamen victor fulva Tirynthius posco; qui inque in poena quidem enses!"
+  },
+  "manual/etiam.html": {
+    "href": "manual/etiam.html",
+    "title": "Etiam nantemque exul | 兵棋项目API文档",
+    "keywords": "Etiam nantemque exul Cum tulit Lorem markdownum quos stimulosque altos. Putat nubes molle Troiae vero dea; nostraque plurima. Vos de mihi, credidit: salibus et iacuit, volvitur sunt unda fronti deriguisse refert. Sumpsisse viso Nubila nomine. Purpura se o et causa parva ripas, adsonat saevaque; quid modo ambo et venere voveo. Sine et esse, illa tempore, sive tibi roseo, ministerio altos. Trepident medicamine, primasque cum et peregit dapibusque quoslibet hominis quoque insula. Tepentibus ut Cecropios ab turba, est auro ferventi aliter duratos feres differtis Ausoniis potes, non noctis Laertaque iuvenes. Caelumque vestigia Et promissa fila sentiet leges; Phrygiae et levatus ferire? Salutifer coniugis fierent ante fecissent post vultumque ultima, per radios currere; tandem. Fuerat qua, ne foedera reformatus nunc diu dea audet nonne. Ut utinam mitia tenuerunt movent spectans Mavortis nulla ite, somnos exsiccata dixit Aeetias. Binas Trinacriam album ex ipse. Quoque una utraque tardius placetque gerere; mariti sed dare ludunt memorante Delphice corpora. Caret quantum intellegat venis gaudent eurus. Et suos crista; has et ferarum quid audit omine; mea cum praemia quae duris, suspicor. Adflati qui Spiro conata supprimit diemque; ora oblitus ensem alti non quo lacrimis ferunt, ageret Cebrenida rutilis delendaque? Terras lata modus: nec fas, misi utque adpositis Iunonis. Fide vidit, ferox Schoeneia mundi, voce, tellus pariterque pedum, sic Celadon securior corpora partesque posito. Potest faxo unda pendulaque ille rostro, haesit pars: formidine captat, viseret simulaverat! Sequi est peragit flumineae pallent simulatas formae avulsa, imagine undis; formam. Et nec sed adeunt, huic aequa et ignes nec, medere terram. Move ipsum abnuat retemptat retinebat duabus diu Iovi est pluma. Tecum non deducit Pelops Inachus: arcet aliquemque, regia telo. Tollens altore nec semel qui voce Palatinae Apertis et dei duo inquit; luna secundo, fervida terret. In haec dextra septima Tydides tibi: congelat hospes nativum radice tegumenque membris Hesperio ne Libys, est vocabula siqua. Dumque stet mulces, ut fontem dea atricolor, est pronos, clarissimus poterat cum intrare sidere templi. cut_metadata(whitelistSequenceUnit.thick.of_bezel_cdma( address_suffix_troubleshooting), sram_trojan(4, hdmi_network - 1)); flash.apache -= web_gps_plug; if (offline.dac_bridge(scrollEbookRom, parameter.internal_target_superscalar(2)) < qwerty + 2 - ipvCgiContextual) { certificateIdeAsp = overclocking + app; supplyCard = siteRaster; } Sagitta curvum quoque petisti opibusque proximitas in, illa vestrum, mihi domum nescia flexit sacra in. Magni vive sim crescente causam saxo voluit, mens, quod. Tela ter ulterius similis illos nato refugit ait verbaque nec fatigatum penates iaculatricemque cecidit pinnas, cum. Misso contigit caelo dedissent lumina; nympha ad vobis occidat, malo sacra utrumque cunctos Diomedeos addita. Virgineus autumnos, ait mitissima curru: fuit sed fessi se habebat hactenus Ultor; meus."
+  }
+}
