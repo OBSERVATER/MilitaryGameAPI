@@ -249,25 +249,6 @@ references:
   commentId: F:Global.HexGrid.terrainRenderer
   fullName: HexGrid.terrainRenderer
   nameWithType: HexGrid.terrainRenderer
-- uid: Global.ISingleton
-  name: ISingleton
-  href: api/Global.ISingleton.html
-  commentId: T:Global.ISingleton
-  fullName: ISingleton
-  nameWithType: ISingleton
-- uid: Global.ISingleton.OnSingletonInit
-  name: OnSingletonInit()
-  href: api/Global.ISingleton.html#Global_ISingleton_OnSingletonInit
-  commentId: M:Global.ISingleton.OnSingletonInit
-  fullName: ISingleton.OnSingletonInit()
-  nameWithType: ISingleton.OnSingletonInit()
-- uid: Global.ISingleton.OnSingletonInit*
-  name: OnSingletonInit
-  href: api/Global.ISingleton.html#Global_ISingleton_OnSingletonInit_
-  commentId: Overload:Global.ISingleton.OnSingletonInit
-  isSpec: "True"
-  fullName: ISingleton.OnSingletonInit
-  nameWithType: ISingleton.OnSingletonInit
 - uid: Global.MapHexElement
   name: MapHexElement
   href: api/Global.MapHexElement.html
@@ -339,487 +320,6 @@ references:
   isSpec: "True"
   fullName: MapHexElement.terrain
   nameWithType: MapHexElement.terrain
-- uid: Global.MonoSingleton`1
-  name: MonoSingleton<T>
-  href: api/Global.MonoSingleton-1.html
-  commentId: T:Global.MonoSingleton`1
-  name.vb: MonoSingleton(Of T)
-  fullName: MonoSingleton<T>
-  fullName.vb: MonoSingleton(Of T)
-  nameWithType: MonoSingleton<T>
-  nameWithType.vb: MonoSingleton(Of T)
-- uid: Global.MonoSingleton`1.Dispose
-  name: Dispose()
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_Dispose
-  commentId: M:Global.MonoSingleton`1.Dispose
-  fullName: MonoSingleton<T>.Dispose()
-  fullName.vb: MonoSingleton(Of T).Dispose()
-  nameWithType: MonoSingleton<T>.Dispose()
-  nameWithType.vb: MonoSingleton(Of T).Dispose()
-- uid: Global.MonoSingleton`1.Dispose*
-  name: Dispose
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_Dispose_
-  commentId: Overload:Global.MonoSingleton`1.Dispose
-  isSpec: "True"
-  fullName: MonoSingleton<T>.Dispose
-  fullName.vb: MonoSingleton(Of T).Dispose
-  nameWithType: MonoSingleton<T>.Dispose
-  nameWithType.vb: MonoSingleton(Of T).Dispose
-- uid: Global.MonoSingleton`1.Instance
-  name: Instance
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_Instance
-  commentId: P:Global.MonoSingleton`1.Instance
-  fullName: MonoSingleton<T>.Instance
-  fullName.vb: MonoSingleton(Of T).Instance
-  nameWithType: MonoSingleton<T>.Instance
-  nameWithType.vb: MonoSingleton(Of T).Instance
-- uid: Global.MonoSingleton`1.Instance*
-  name: Instance
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_Instance_
-  commentId: Overload:Global.MonoSingleton`1.Instance
-  isSpec: "True"
-  fullName: MonoSingleton<T>.Instance
-  fullName.vb: MonoSingleton(Of T).Instance
-  nameWithType: MonoSingleton<T>.Instance
-  nameWithType.vb: MonoSingleton(Of T).Instance
-- uid: Global.MonoSingleton`1.mInstance
-  name: mInstance
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_mInstance
-  commentId: F:Global.MonoSingleton`1.mInstance
-  fullName: MonoSingleton<T>.mInstance
-  fullName.vb: MonoSingleton(Of T).mInstance
-  nameWithType: MonoSingleton<T>.mInstance
-  nameWithType.vb: MonoSingleton(Of T).mInstance
-- uid: Global.MonoSingleton`1.OnApplicationQuit
-  name: OnApplicationQuit()
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnApplicationQuit
-  commentId: M:Global.MonoSingleton`1.OnApplicationQuit
-  fullName: MonoSingleton<T>.OnApplicationQuit()
-  fullName.vb: MonoSingleton(Of T).OnApplicationQuit()
-  nameWithType: MonoSingleton<T>.OnApplicationQuit()
-  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit()
-- uid: Global.MonoSingleton`1.OnApplicationQuit*
-  name: OnApplicationQuit
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnApplicationQuit_
-  commentId: Overload:Global.MonoSingleton`1.OnApplicationQuit
-  isSpec: "True"
-  fullName: MonoSingleton<T>.OnApplicationQuit
-  fullName.vb: MonoSingleton(Of T).OnApplicationQuit
-  nameWithType: MonoSingleton<T>.OnApplicationQuit
-  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit
-- uid: Global.MonoSingleton`1.OnDestroy
-  name: OnDestroy()
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnDestroy
-  commentId: M:Global.MonoSingleton`1.OnDestroy
-  fullName: MonoSingleton<T>.OnDestroy()
-  fullName.vb: MonoSingleton(Of T).OnDestroy()
-  nameWithType: MonoSingleton<T>.OnDestroy()
-  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
-- uid: Global.MonoSingleton`1.OnDestroy*
-  name: OnDestroy
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnDestroy_
-  commentId: Overload:Global.MonoSingleton`1.OnDestroy
-  isSpec: "True"
-  fullName: MonoSingleton<T>.OnDestroy
-  fullName.vb: MonoSingleton(Of T).OnDestroy
-  nameWithType: MonoSingleton<T>.OnDestroy
-  nameWithType.vb: MonoSingleton(Of T).OnDestroy
-- uid: Global.MonoSingleton`1.OnSingletonInit
-  name: OnSingletonInit()
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnSingletonInit
-  commentId: M:Global.MonoSingleton`1.OnSingletonInit
-  fullName: MonoSingleton<T>.OnSingletonInit()
-  fullName.vb: MonoSingleton(Of T).OnSingletonInit()
-  nameWithType: MonoSingleton<T>.OnSingletonInit()
-  nameWithType.vb: MonoSingleton(Of T).OnSingletonInit()
-- uid: Global.MonoSingleton`1.OnSingletonInit*
-  name: OnSingletonInit
-  href: api/Global.MonoSingleton-1.html#Global_MonoSingleton_1_OnSingletonInit_
-  commentId: Overload:Global.MonoSingleton`1.OnSingletonInit
-  isSpec: "True"
-  fullName: MonoSingleton<T>.OnSingletonInit
-  fullName.vb: MonoSingleton(Of T).OnSingletonInit
-  nameWithType: MonoSingleton<T>.OnSingletonInit
-  nameWithType.vb: MonoSingleton(Of T).OnSingletonInit
-- uid: Global.MonoSingletonPathAttribute
-  name: MonoSingletonPathAttribute
-  href: api/Global.MonoSingletonPathAttribute.html
-  commentId: T:Global.MonoSingletonPathAttribute
-  fullName: MonoSingletonPathAttribute
-  nameWithType: MonoSingletonPathAttribute
-- uid: Global.MonoSingletonPathAttribute.#ctor(System.String)
-  name: MonoSingletonPathAttribute(string)
-  href: api/Global.MonoSingletonPathAttribute.html#Global_MonoSingletonPathAttribute__ctor_System_String_
-  commentId: M:Global.MonoSingletonPathAttribute.#ctor(System.String)
-  name.vb: New(String)
-  fullName: MonoSingletonPathAttribute.MonoSingletonPathAttribute(string)
-  fullName.vb: MonoSingletonPathAttribute.New(String)
-  nameWithType: MonoSingletonPathAttribute.MonoSingletonPathAttribute(string)
-  nameWithType.vb: MonoSingletonPathAttribute.New(String)
-- uid: Global.MonoSingletonPathAttribute.#ctor*
-  name: MonoSingletonPathAttribute
-  href: api/Global.MonoSingletonPathAttribute.html#Global_MonoSingletonPathAttribute__ctor_
-  commentId: Overload:Global.MonoSingletonPathAttribute.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: MonoSingletonPathAttribute.MonoSingletonPathAttribute
-  fullName.vb: MonoSingletonPathAttribute.New
-  nameWithType: MonoSingletonPathAttribute.MonoSingletonPathAttribute
-  nameWithType.vb: MonoSingletonPathAttribute.New
-- uid: Global.MonoSingletonPathAttribute.PathInHierarchy
-  name: PathInHierarchy
-  href: api/Global.MonoSingletonPathAttribute.html#Global_MonoSingletonPathAttribute_PathInHierarchy
-  commentId: P:Global.MonoSingletonPathAttribute.PathInHierarchy
-  fullName: MonoSingletonPathAttribute.PathInHierarchy
-  nameWithType: MonoSingletonPathAttribute.PathInHierarchy
-- uid: Global.MonoSingletonPathAttribute.PathInHierarchy*
-  name: PathInHierarchy
-  href: api/Global.MonoSingletonPathAttribute.html#Global_MonoSingletonPathAttribute_PathInHierarchy_
-  commentId: Overload:Global.MonoSingletonPathAttribute.PathInHierarchy
-  isSpec: "True"
-  fullName: MonoSingletonPathAttribute.PathInHierarchy
-  nameWithType: MonoSingletonPathAttribute.PathInHierarchy
-- uid: Global.MonoSingletonProperty`1
-  name: MonoSingletonProperty<T>
-  href: api/Global.MonoSingletonProperty-1.html
-  commentId: T:Global.MonoSingletonProperty`1
-  name.vb: MonoSingletonProperty(Of T)
-  fullName: MonoSingletonProperty<T>
-  fullName.vb: MonoSingletonProperty(Of T)
-  nameWithType: MonoSingletonProperty<T>
-  nameWithType.vb: MonoSingletonProperty(Of T)
-- uid: Global.MonoSingletonProperty`1.Dispose
-  name: Dispose()
-  href: api/Global.MonoSingletonProperty-1.html#Global_MonoSingletonProperty_1_Dispose
-  commentId: M:Global.MonoSingletonProperty`1.Dispose
-  fullName: MonoSingletonProperty<T>.Dispose()
-  fullName.vb: MonoSingletonProperty(Of T).Dispose()
-  nameWithType: MonoSingletonProperty<T>.Dispose()
-  nameWithType.vb: MonoSingletonProperty(Of T).Dispose()
-- uid: Global.MonoSingletonProperty`1.Dispose*
-  name: Dispose
-  href: api/Global.MonoSingletonProperty-1.html#Global_MonoSingletonProperty_1_Dispose_
-  commentId: Overload:Global.MonoSingletonProperty`1.Dispose
-  isSpec: "True"
-  fullName: MonoSingletonProperty<T>.Dispose
-  fullName.vb: MonoSingletonProperty(Of T).Dispose
-  nameWithType: MonoSingletonProperty<T>.Dispose
-  nameWithType.vb: MonoSingletonProperty(Of T).Dispose
-- uid: Global.MonoSingletonProperty`1.Instance
-  name: Instance
-  href: api/Global.MonoSingletonProperty-1.html#Global_MonoSingletonProperty_1_Instance
-  commentId: P:Global.MonoSingletonProperty`1.Instance
-  fullName: MonoSingletonProperty<T>.Instance
-  fullName.vb: MonoSingletonProperty(Of T).Instance
-  nameWithType: MonoSingletonProperty<T>.Instance
-  nameWithType.vb: MonoSingletonProperty(Of T).Instance
-- uid: Global.MonoSingletonProperty`1.Instance*
-  name: Instance
-  href: api/Global.MonoSingletonProperty-1.html#Global_MonoSingletonProperty_1_Instance_
-  commentId: Overload:Global.MonoSingletonProperty`1.Instance
-  isSpec: "True"
-  fullName: MonoSingletonProperty<T>.Instance
-  fullName.vb: MonoSingletonProperty(Of T).Instance
-  nameWithType: MonoSingletonProperty<T>.Instance
-  nameWithType.vb: MonoSingletonProperty(Of T).Instance
-- uid: Global.PersistentMonoSingleton`1
-  name: PersistentMonoSingleton<T>
-  href: api/Global.PersistentMonoSingleton-1.html
-  commentId: T:Global.PersistentMonoSingleton`1
-  name.vb: PersistentMonoSingleton(Of T)
-  fullName: PersistentMonoSingleton<T>
-  fullName.vb: PersistentMonoSingleton(Of T)
-  nameWithType: PersistentMonoSingleton<T>
-  nameWithType.vb: PersistentMonoSingleton(Of T)
-- uid: Global.PersistentMonoSingleton`1.Awake
-  name: Awake()
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_Awake
-  commentId: M:Global.PersistentMonoSingleton`1.Awake
-  fullName: PersistentMonoSingleton<T>.Awake()
-  fullName.vb: PersistentMonoSingleton(Of T).Awake()
-  nameWithType: PersistentMonoSingleton<T>.Awake()
-  nameWithType.vb: PersistentMonoSingleton(Of T).Awake()
-- uid: Global.PersistentMonoSingleton`1.Awake*
-  name: Awake
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_Awake_
-  commentId: Overload:Global.PersistentMonoSingleton`1.Awake
-  isSpec: "True"
-  fullName: PersistentMonoSingleton<T>.Awake
-  fullName.vb: PersistentMonoSingleton(Of T).Awake
-  nameWithType: PersistentMonoSingleton<T>.Awake
-  nameWithType.vb: PersistentMonoSingleton(Of T).Awake
-- uid: Global.PersistentMonoSingleton`1.Instance
-  name: Instance
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_Instance
-  commentId: P:Global.PersistentMonoSingleton`1.Instance
-  fullName: PersistentMonoSingleton<T>.Instance
-  fullName.vb: PersistentMonoSingleton(Of T).Instance
-  nameWithType: PersistentMonoSingleton<T>.Instance
-  nameWithType.vb: PersistentMonoSingleton(Of T).Instance
-- uid: Global.PersistentMonoSingleton`1.Instance*
-  name: Instance
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_Instance_
-  commentId: Overload:Global.PersistentMonoSingleton`1.Instance
-  isSpec: "True"
-  fullName: PersistentMonoSingleton<T>.Instance
-  fullName.vb: PersistentMonoSingleton(Of T).Instance
-  nameWithType: PersistentMonoSingleton<T>.Instance
-  nameWithType.vb: PersistentMonoSingleton(Of T).Instance
-- uid: Global.PersistentMonoSingleton`1.mEnabled
-  name: mEnabled
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_mEnabled
-  commentId: F:Global.PersistentMonoSingleton`1.mEnabled
-  fullName: PersistentMonoSingleton<T>.mEnabled
-  fullName.vb: PersistentMonoSingleton(Of T).mEnabled
-  nameWithType: PersistentMonoSingleton<T>.mEnabled
-  nameWithType.vb: PersistentMonoSingleton(Of T).mEnabled
-- uid: Global.PersistentMonoSingleton`1.mInstance
-  name: mInstance
-  href: api/Global.PersistentMonoSingleton-1.html#Global_PersistentMonoSingleton_1_mInstance
-  commentId: F:Global.PersistentMonoSingleton`1.mInstance
-  fullName: PersistentMonoSingleton<T>.mInstance
-  fullName.vb: PersistentMonoSingleton(Of T).mInstance
-  nameWithType: PersistentMonoSingleton<T>.mInstance
-  nameWithType.vb: PersistentMonoSingleton(Of T).mInstance
-- uid: Global.ReplaceableMonoSingleton`1
-  name: ReplaceableMonoSingleton<T>
-  href: api/Global.ReplaceableMonoSingleton-1.html
-  commentId: T:Global.ReplaceableMonoSingleton`1
-  name.vb: ReplaceableMonoSingleton(Of T)
-  fullName: ReplaceableMonoSingleton<T>
-  fullName.vb: ReplaceableMonoSingleton(Of T)
-  nameWithType: ReplaceableMonoSingleton<T>
-  nameWithType.vb: ReplaceableMonoSingleton(Of T)
-- uid: Global.ReplaceableMonoSingleton`1.Awake
-  name: Awake()
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_Awake
-  commentId: M:Global.ReplaceableMonoSingleton`1.Awake
-  fullName: ReplaceableMonoSingleton<T>.Awake()
-  fullName.vb: ReplaceableMonoSingleton(Of T).Awake()
-  nameWithType: ReplaceableMonoSingleton<T>.Awake()
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).Awake()
-- uid: Global.ReplaceableMonoSingleton`1.Awake*
-  name: Awake
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_Awake_
-  commentId: Overload:Global.ReplaceableMonoSingleton`1.Awake
-  isSpec: "True"
-  fullName: ReplaceableMonoSingleton<T>.Awake
-  fullName.vb: ReplaceableMonoSingleton(Of T).Awake
-  nameWithType: ReplaceableMonoSingleton<T>.Awake
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).Awake
-- uid: Global.ReplaceableMonoSingleton`1.InitializationTime
-  name: InitializationTime
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_InitializationTime
-  commentId: F:Global.ReplaceableMonoSingleton`1.InitializationTime
-  fullName: ReplaceableMonoSingleton<T>.InitializationTime
-  fullName.vb: ReplaceableMonoSingleton(Of T).InitializationTime
-  nameWithType: ReplaceableMonoSingleton<T>.InitializationTime
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).InitializationTime
-- uid: Global.ReplaceableMonoSingleton`1.Instance
-  name: Instance
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_Instance
-  commentId: P:Global.ReplaceableMonoSingleton`1.Instance
-  fullName: ReplaceableMonoSingleton<T>.Instance
-  fullName.vb: ReplaceableMonoSingleton(Of T).Instance
-  nameWithType: ReplaceableMonoSingleton<T>.Instance
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).Instance
-- uid: Global.ReplaceableMonoSingleton`1.Instance*
-  name: Instance
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_Instance_
-  commentId: Overload:Global.ReplaceableMonoSingleton`1.Instance
-  isSpec: "True"
-  fullName: ReplaceableMonoSingleton<T>.Instance
-  fullName.vb: ReplaceableMonoSingleton(Of T).Instance
-  nameWithType: ReplaceableMonoSingleton<T>.Instance
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).Instance
-- uid: Global.ReplaceableMonoSingleton`1.mInstance
-  name: mInstance
-  href: api/Global.ReplaceableMonoSingleton-1.html#Global_ReplaceableMonoSingleton_1_mInstance
-  commentId: F:Global.ReplaceableMonoSingleton`1.mInstance
-  fullName: ReplaceableMonoSingleton<T>.mInstance
-  fullName.vb: ReplaceableMonoSingleton(Of T).mInstance
-  nameWithType: ReplaceableMonoSingleton<T>.mInstance
-  nameWithType.vb: ReplaceableMonoSingleton(Of T).mInstance
-- uid: Global.ScriptableSingletonProperty`1
-  name: ScriptableSingletonProperty<T>
-  href: api/Global.ScriptableSingletonProperty-1.html
-  commentId: T:Global.ScriptableSingletonProperty`1
-  name.vb: ScriptableSingletonProperty(Of T)
-  fullName: ScriptableSingletonProperty<T>
-  fullName.vb: ScriptableSingletonProperty(Of T)
-  nameWithType: ScriptableSingletonProperty<T>
-  nameWithType.vb: ScriptableSingletonProperty(Of T)
-- uid: Global.ScriptableSingletonProperty`1.Dispose
-  name: Dispose()
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_Dispose
-  commentId: M:Global.ScriptableSingletonProperty`1.Dispose
-  fullName: ScriptableSingletonProperty<T>.Dispose()
-  fullName.vb: ScriptableSingletonProperty(Of T).Dispose()
-  nameWithType: ScriptableSingletonProperty<T>.Dispose()
-  nameWithType.vb: ScriptableSingletonProperty(Of T).Dispose()
-- uid: Global.ScriptableSingletonProperty`1.Dispose*
-  name: Dispose
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_Dispose_
-  commentId: Overload:Global.ScriptableSingletonProperty`1.Dispose
-  isSpec: "True"
-  fullName: ScriptableSingletonProperty<T>.Dispose
-  fullName.vb: ScriptableSingletonProperty(Of T).Dispose
-  nameWithType: ScriptableSingletonProperty<T>.Dispose
-  nameWithType.vb: ScriptableSingletonProperty(Of T).Dispose
-- uid: Global.ScriptableSingletonProperty`1.Instance
-  name: Instance
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_Instance
-  commentId: P:Global.ScriptableSingletonProperty`1.Instance
-  fullName: ScriptableSingletonProperty<T>.Instance
-  fullName.vb: ScriptableSingletonProperty(Of T).Instance
-  nameWithType: ScriptableSingletonProperty<T>.Instance
-  nameWithType.vb: ScriptableSingletonProperty(Of T).Instance
-- uid: Global.ScriptableSingletonProperty`1.Instance*
-  name: Instance
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_Instance_
-  commentId: Overload:Global.ScriptableSingletonProperty`1.Instance
-  isSpec: "True"
-  fullName: ScriptableSingletonProperty<T>.Instance
-  fullName.vb: ScriptableSingletonProperty(Of T).Instance
-  nameWithType: ScriptableSingletonProperty<T>.Instance
-  nameWithType.vb: ScriptableSingletonProperty(Of T).Instance
-- uid: Global.ScriptableSingletonProperty`1.InstanceWithLoader(Func{System.String,`0})
-  name: InstanceWithLoader(Func<string, T>)
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_InstanceWithLoader_Func_System_String__0__
-  commentId: M:Global.ScriptableSingletonProperty`1.InstanceWithLoader(Func{System.String,`0})
-  name.vb: InstanceWithLoader(Func(Of String, T))
-  fullName: ScriptableSingletonProperty<T>.InstanceWithLoader(Func<string, T>)
-  fullName.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader(Func(Of String, T))
-  nameWithType: ScriptableSingletonProperty<T>.InstanceWithLoader(Func<string, T>)
-  nameWithType.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader(Func(Of String, T))
-- uid: Global.ScriptableSingletonProperty`1.InstanceWithLoader*
-  name: InstanceWithLoader
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_InstanceWithLoader_
-  commentId: Overload:Global.ScriptableSingletonProperty`1.InstanceWithLoader
-  isSpec: "True"
-  fullName: ScriptableSingletonProperty<T>.InstanceWithLoader
-  fullName.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader
-  nameWithType: ScriptableSingletonProperty<T>.InstanceWithLoader
-  nameWithType.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader
-- uid: Global.ScriptableSingletonProperty`1.ScriptableLoader
-  name: ScriptableLoader
-  href: api/Global.ScriptableSingletonProperty-1.html#Global_ScriptableSingletonProperty_1_ScriptableLoader
-  commentId: F:Global.ScriptableSingletonProperty`1.ScriptableLoader
-  fullName: ScriptableSingletonProperty<T>.ScriptableLoader
-  fullName.vb: ScriptableSingletonProperty(Of T).ScriptableLoader
-  nameWithType: ScriptableSingletonProperty<T>.ScriptableLoader
-  nameWithType.vb: ScriptableSingletonProperty(Of T).ScriptableLoader
-- uid: Global.Singleton`1
-  name: Singleton<T>
-  href: api/Global.Singleton-1.html
-  commentId: T:Global.Singleton`1
-  name.vb: Singleton(Of T)
-  fullName: Singleton<T>
-  fullName.vb: Singleton(Of T)
-  nameWithType: Singleton<T>
-  nameWithType.vb: Singleton(Of T)
-- uid: Global.Singleton`1.Dispose
-  name: Dispose()
-  href: api/Global.Singleton-1.html#Global_Singleton_1_Dispose
-  commentId: M:Global.Singleton`1.Dispose
-  fullName: Singleton<T>.Dispose()
-  fullName.vb: Singleton(Of T).Dispose()
-  nameWithType: Singleton<T>.Dispose()
-  nameWithType.vb: Singleton(Of T).Dispose()
-- uid: Global.Singleton`1.Dispose*
-  name: Dispose
-  href: api/Global.Singleton-1.html#Global_Singleton_1_Dispose_
-  commentId: Overload:Global.Singleton`1.Dispose
-  isSpec: "True"
-  fullName: Singleton<T>.Dispose
-  fullName.vb: Singleton(Of T).Dispose
-  nameWithType: Singleton<T>.Dispose
-  nameWithType.vb: Singleton(Of T).Dispose
-- uid: Global.Singleton`1.Instance
-  name: Instance
-  href: api/Global.Singleton-1.html#Global_Singleton_1_Instance
-  commentId: P:Global.Singleton`1.Instance
-  fullName: Singleton<T>.Instance
-  fullName.vb: Singleton(Of T).Instance
-  nameWithType: Singleton<T>.Instance
-  nameWithType.vb: Singleton(Of T).Instance
-- uid: Global.Singleton`1.Instance*
-  name: Instance
-  href: api/Global.Singleton-1.html#Global_Singleton_1_Instance_
-  commentId: Overload:Global.Singleton`1.Instance
-  isSpec: "True"
-  fullName: Singleton<T>.Instance
-  fullName.vb: Singleton(Of T).Instance
-  nameWithType: Singleton<T>.Instance
-  nameWithType.vb: Singleton(Of T).Instance
-- uid: Global.Singleton`1.mInstance
-  name: mInstance
-  href: api/Global.Singleton-1.html#Global_Singleton_1_mInstance
-  commentId: F:Global.Singleton`1.mInstance
-  fullName: Singleton<T>.mInstance
-  fullName.vb: Singleton(Of T).mInstance
-  nameWithType: Singleton<T>.mInstance
-  nameWithType.vb: Singleton(Of T).mInstance
-- uid: Global.Singleton`1.OnSingletonInit
-  name: OnSingletonInit()
-  href: api/Global.Singleton-1.html#Global_Singleton_1_OnSingletonInit
-  commentId: M:Global.Singleton`1.OnSingletonInit
-  fullName: Singleton<T>.OnSingletonInit()
-  fullName.vb: Singleton(Of T).OnSingletonInit()
-  nameWithType: Singleton<T>.OnSingletonInit()
-  nameWithType.vb: Singleton(Of T).OnSingletonInit()
-- uid: Global.Singleton`1.OnSingletonInit*
-  name: OnSingletonInit
-  href: api/Global.Singleton-1.html#Global_Singleton_1_OnSingletonInit_
-  commentId: Overload:Global.Singleton`1.OnSingletonInit
-  isSpec: "True"
-  fullName: Singleton<T>.OnSingletonInit
-  fullName.vb: Singleton(Of T).OnSingletonInit
-  nameWithType: Singleton<T>.OnSingletonInit
-  nameWithType.vb: Singleton(Of T).OnSingletonInit
-- uid: Global.SingletonProperty`1
-  name: SingletonProperty<T>
-  href: api/Global.SingletonProperty-1.html
-  commentId: T:Global.SingletonProperty`1
-  name.vb: SingletonProperty(Of T)
-  fullName: SingletonProperty<T>
-  fullName.vb: SingletonProperty(Of T)
-  nameWithType: SingletonProperty<T>
-  nameWithType.vb: SingletonProperty(Of T)
-- uid: Global.SingletonProperty`1.Dispose
-  name: Dispose()
-  href: api/Global.SingletonProperty-1.html#Global_SingletonProperty_1_Dispose
-  commentId: M:Global.SingletonProperty`1.Dispose
-  fullName: SingletonProperty<T>.Dispose()
-  fullName.vb: SingletonProperty(Of T).Dispose()
-  nameWithType: SingletonProperty<T>.Dispose()
-  nameWithType.vb: SingletonProperty(Of T).Dispose()
-- uid: Global.SingletonProperty`1.Dispose*
-  name: Dispose
-  href: api/Global.SingletonProperty-1.html#Global_SingletonProperty_1_Dispose_
-  commentId: Overload:Global.SingletonProperty`1.Dispose
-  isSpec: "True"
-  fullName: SingletonProperty<T>.Dispose
-  fullName.vb: SingletonProperty(Of T).Dispose
-  nameWithType: SingletonProperty<T>.Dispose
-  nameWithType.vb: SingletonProperty(Of T).Dispose
-- uid: Global.SingletonProperty`1.Instance
-  name: Instance
-  href: api/Global.SingletonProperty-1.html#Global_SingletonProperty_1_Instance
-  commentId: P:Global.SingletonProperty`1.Instance
-  fullName: SingletonProperty<T>.Instance
-  fullName.vb: SingletonProperty(Of T).Instance
-  nameWithType: SingletonProperty<T>.Instance
-  nameWithType.vb: SingletonProperty(Of T).Instance
-- uid: Global.SingletonProperty`1.Instance*
-  name: Instance
-  href: api/Global.SingletonProperty-1.html#Global_SingletonProperty_1_Instance_
-  commentId: Overload:Global.SingletonProperty`1.Instance
-  isSpec: "True"
-  fullName: SingletonProperty<T>.Instance
-  fullName.vb: SingletonProperty(Of T).Instance
-  nameWithType: SingletonProperty<T>.Instance
-  nameWithType.vb: SingletonProperty(Of T).Instance
 - uid: Global.TerrainType
   name: TerrainType
   href: api/Global.TerrainType.html
@@ -1514,6 +1014,512 @@ references:
   isSpec: "True"
   fullName: MilitaryGame.MapEditor.TerrainPanel.SetTerrain
   nameWithType: TerrainPanel.SetTerrain
+- uid: QFramework
+  name: QFramework
+  href: api/QFramework.html
+  commentId: N:QFramework
+  fullName: QFramework
+  nameWithType: QFramework
+- uid: QFramework.ISingleton
+  name: ISingleton
+  href: api/QFramework.ISingleton.html
+  commentId: T:QFramework.ISingleton
+  fullName: QFramework.ISingleton
+  nameWithType: ISingleton
+- uid: QFramework.ISingleton.OnSingletonInit
+  name: OnSingletonInit()
+  href: api/QFramework.ISingleton.html#QFramework_ISingleton_OnSingletonInit
+  commentId: M:QFramework.ISingleton.OnSingletonInit
+  fullName: QFramework.ISingleton.OnSingletonInit()
+  nameWithType: ISingleton.OnSingletonInit()
+- uid: QFramework.ISingleton.OnSingletonInit*
+  name: OnSingletonInit
+  href: api/QFramework.ISingleton.html#QFramework_ISingleton_OnSingletonInit_
+  commentId: Overload:QFramework.ISingleton.OnSingletonInit
+  isSpec: "True"
+  fullName: QFramework.ISingleton.OnSingletonInit
+  nameWithType: ISingleton.OnSingletonInit
+- uid: QFramework.MonoSingleton`1
+  name: MonoSingleton<T>
+  href: api/QFramework.MonoSingleton-1.html
+  commentId: T:QFramework.MonoSingleton`1
+  name.vb: MonoSingleton(Of T)
+  fullName: QFramework.MonoSingleton<T>
+  fullName.vb: QFramework.MonoSingleton(Of T)
+  nameWithType: MonoSingleton<T>
+  nameWithType.vb: MonoSingleton(Of T)
+- uid: QFramework.MonoSingleton`1.Dispose
+  name: Dispose()
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_Dispose
+  commentId: M:QFramework.MonoSingleton`1.Dispose
+  fullName: QFramework.MonoSingleton<T>.Dispose()
+  fullName.vb: QFramework.MonoSingleton(Of T).Dispose()
+  nameWithType: MonoSingleton<T>.Dispose()
+  nameWithType.vb: MonoSingleton(Of T).Dispose()
+- uid: QFramework.MonoSingleton`1.Dispose*
+  name: Dispose
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_Dispose_
+  commentId: Overload:QFramework.MonoSingleton`1.Dispose
+  isSpec: "True"
+  fullName: QFramework.MonoSingleton<T>.Dispose
+  fullName.vb: QFramework.MonoSingleton(Of T).Dispose
+  nameWithType: MonoSingleton<T>.Dispose
+  nameWithType.vb: MonoSingleton(Of T).Dispose
+- uid: QFramework.MonoSingleton`1.Instance
+  name: Instance
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_Instance
+  commentId: P:QFramework.MonoSingleton`1.Instance
+  fullName: QFramework.MonoSingleton<T>.Instance
+  fullName.vb: QFramework.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: QFramework.MonoSingleton`1.Instance*
+  name: Instance
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_Instance_
+  commentId: Overload:QFramework.MonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: QFramework.MonoSingleton<T>.Instance
+  fullName.vb: QFramework.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: QFramework.MonoSingleton`1.mInstance
+  name: mInstance
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_mInstance
+  commentId: F:QFramework.MonoSingleton`1.mInstance
+  fullName: QFramework.MonoSingleton<T>.mInstance
+  fullName.vb: QFramework.MonoSingleton(Of T).mInstance
+  nameWithType: MonoSingleton<T>.mInstance
+  nameWithType.vb: MonoSingleton(Of T).mInstance
+- uid: QFramework.MonoSingleton`1.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnApplicationQuit
+  commentId: M:QFramework.MonoSingleton`1.OnApplicationQuit
+  fullName: QFramework.MonoSingleton<T>.OnApplicationQuit()
+  fullName.vb: QFramework.MonoSingleton(Of T).OnApplicationQuit()
+  nameWithType: MonoSingleton<T>.OnApplicationQuit()
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit()
+- uid: QFramework.MonoSingleton`1.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnApplicationQuit_
+  commentId: Overload:QFramework.MonoSingleton`1.OnApplicationQuit
+  isSpec: "True"
+  fullName: QFramework.MonoSingleton<T>.OnApplicationQuit
+  fullName.vb: QFramework.MonoSingleton(Of T).OnApplicationQuit
+  nameWithType: MonoSingleton<T>.OnApplicationQuit
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit
+- uid: QFramework.MonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnDestroy
+  commentId: M:QFramework.MonoSingleton`1.OnDestroy
+  fullName: QFramework.MonoSingleton<T>.OnDestroy()
+  fullName.vb: QFramework.MonoSingleton(Of T).OnDestroy()
+  nameWithType: MonoSingleton<T>.OnDestroy()
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
+- uid: QFramework.MonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnDestroy_
+  commentId: Overload:QFramework.MonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: QFramework.MonoSingleton<T>.OnDestroy
+  fullName.vb: QFramework.MonoSingleton(Of T).OnDestroy
+  nameWithType: MonoSingleton<T>.OnDestroy
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy
+- uid: QFramework.MonoSingleton`1.OnSingletonInit
+  name: OnSingletonInit()
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnSingletonInit
+  commentId: M:QFramework.MonoSingleton`1.OnSingletonInit
+  fullName: QFramework.MonoSingleton<T>.OnSingletonInit()
+  fullName.vb: QFramework.MonoSingleton(Of T).OnSingletonInit()
+  nameWithType: MonoSingleton<T>.OnSingletonInit()
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonInit()
+- uid: QFramework.MonoSingleton`1.OnSingletonInit*
+  name: OnSingletonInit
+  href: api/QFramework.MonoSingleton-1.html#QFramework_MonoSingleton_1_OnSingletonInit_
+  commentId: Overload:QFramework.MonoSingleton`1.OnSingletonInit
+  isSpec: "True"
+  fullName: QFramework.MonoSingleton<T>.OnSingletonInit
+  fullName.vb: QFramework.MonoSingleton(Of T).OnSingletonInit
+  nameWithType: MonoSingleton<T>.OnSingletonInit
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonInit
+- uid: QFramework.MonoSingletonPathAttribute
+  name: MonoSingletonPathAttribute
+  href: api/QFramework.MonoSingletonPathAttribute.html
+  commentId: T:QFramework.MonoSingletonPathAttribute
+  fullName: QFramework.MonoSingletonPathAttribute
+  nameWithType: MonoSingletonPathAttribute
+- uid: QFramework.MonoSingletonPathAttribute.#ctor(System.String)
+  name: MonoSingletonPathAttribute(string)
+  href: api/QFramework.MonoSingletonPathAttribute.html#QFramework_MonoSingletonPathAttribute__ctor_System_String_
+  commentId: M:QFramework.MonoSingletonPathAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: QFramework.MonoSingletonPathAttribute.MonoSingletonPathAttribute(string)
+  fullName.vb: QFramework.MonoSingletonPathAttribute.New(String)
+  nameWithType: MonoSingletonPathAttribute.MonoSingletonPathAttribute(string)
+  nameWithType.vb: MonoSingletonPathAttribute.New(String)
+- uid: QFramework.MonoSingletonPathAttribute.#ctor*
+  name: MonoSingletonPathAttribute
+  href: api/QFramework.MonoSingletonPathAttribute.html#QFramework_MonoSingletonPathAttribute__ctor_
+  commentId: Overload:QFramework.MonoSingletonPathAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: QFramework.MonoSingletonPathAttribute.MonoSingletonPathAttribute
+  fullName.vb: QFramework.MonoSingletonPathAttribute.New
+  nameWithType: MonoSingletonPathAttribute.MonoSingletonPathAttribute
+  nameWithType.vb: MonoSingletonPathAttribute.New
+- uid: QFramework.MonoSingletonPathAttribute.PathInHierarchy
+  name: PathInHierarchy
+  href: api/QFramework.MonoSingletonPathAttribute.html#QFramework_MonoSingletonPathAttribute_PathInHierarchy
+  commentId: P:QFramework.MonoSingletonPathAttribute.PathInHierarchy
+  fullName: QFramework.MonoSingletonPathAttribute.PathInHierarchy
+  nameWithType: MonoSingletonPathAttribute.PathInHierarchy
+- uid: QFramework.MonoSingletonPathAttribute.PathInHierarchy*
+  name: PathInHierarchy
+  href: api/QFramework.MonoSingletonPathAttribute.html#QFramework_MonoSingletonPathAttribute_PathInHierarchy_
+  commentId: Overload:QFramework.MonoSingletonPathAttribute.PathInHierarchy
+  isSpec: "True"
+  fullName: QFramework.MonoSingletonPathAttribute.PathInHierarchy
+  nameWithType: MonoSingletonPathAttribute.PathInHierarchy
+- uid: QFramework.MonoSingletonProperty`1
+  name: MonoSingletonProperty<T>
+  href: api/QFramework.MonoSingletonProperty-1.html
+  commentId: T:QFramework.MonoSingletonProperty`1
+  name.vb: MonoSingletonProperty(Of T)
+  fullName: QFramework.MonoSingletonProperty<T>
+  fullName.vb: QFramework.MonoSingletonProperty(Of T)
+  nameWithType: MonoSingletonProperty<T>
+  nameWithType.vb: MonoSingletonProperty(Of T)
+- uid: QFramework.MonoSingletonProperty`1.Dispose
+  name: Dispose()
+  href: api/QFramework.MonoSingletonProperty-1.html#QFramework_MonoSingletonProperty_1_Dispose
+  commentId: M:QFramework.MonoSingletonProperty`1.Dispose
+  fullName: QFramework.MonoSingletonProperty<T>.Dispose()
+  fullName.vb: QFramework.MonoSingletonProperty(Of T).Dispose()
+  nameWithType: MonoSingletonProperty<T>.Dispose()
+  nameWithType.vb: MonoSingletonProperty(Of T).Dispose()
+- uid: QFramework.MonoSingletonProperty`1.Dispose*
+  name: Dispose
+  href: api/QFramework.MonoSingletonProperty-1.html#QFramework_MonoSingletonProperty_1_Dispose_
+  commentId: Overload:QFramework.MonoSingletonProperty`1.Dispose
+  isSpec: "True"
+  fullName: QFramework.MonoSingletonProperty<T>.Dispose
+  fullName.vb: QFramework.MonoSingletonProperty(Of T).Dispose
+  nameWithType: MonoSingletonProperty<T>.Dispose
+  nameWithType.vb: MonoSingletonProperty(Of T).Dispose
+- uid: QFramework.MonoSingletonProperty`1.Instance
+  name: Instance
+  href: api/QFramework.MonoSingletonProperty-1.html#QFramework_MonoSingletonProperty_1_Instance
+  commentId: P:QFramework.MonoSingletonProperty`1.Instance
+  fullName: QFramework.MonoSingletonProperty<T>.Instance
+  fullName.vb: QFramework.MonoSingletonProperty(Of T).Instance
+  nameWithType: MonoSingletonProperty<T>.Instance
+  nameWithType.vb: MonoSingletonProperty(Of T).Instance
+- uid: QFramework.MonoSingletonProperty`1.Instance*
+  name: Instance
+  href: api/QFramework.MonoSingletonProperty-1.html#QFramework_MonoSingletonProperty_1_Instance_
+  commentId: Overload:QFramework.MonoSingletonProperty`1.Instance
+  isSpec: "True"
+  fullName: QFramework.MonoSingletonProperty<T>.Instance
+  fullName.vb: QFramework.MonoSingletonProperty(Of T).Instance
+  nameWithType: MonoSingletonProperty<T>.Instance
+  nameWithType.vb: MonoSingletonProperty(Of T).Instance
+- uid: QFramework.PersistentMonoSingleton`1
+  name: PersistentMonoSingleton<T>
+  href: api/QFramework.PersistentMonoSingleton-1.html
+  commentId: T:QFramework.PersistentMonoSingleton`1
+  name.vb: PersistentMonoSingleton(Of T)
+  fullName: QFramework.PersistentMonoSingleton<T>
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T)
+  nameWithType: PersistentMonoSingleton<T>
+  nameWithType.vb: PersistentMonoSingleton(Of T)
+- uid: QFramework.PersistentMonoSingleton`1.Awake
+  name: Awake()
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_Awake
+  commentId: M:QFramework.PersistentMonoSingleton`1.Awake
+  fullName: QFramework.PersistentMonoSingleton<T>.Awake()
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).Awake()
+  nameWithType: PersistentMonoSingleton<T>.Awake()
+  nameWithType.vb: PersistentMonoSingleton(Of T).Awake()
+- uid: QFramework.PersistentMonoSingleton`1.Awake*
+  name: Awake
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_Awake_
+  commentId: Overload:QFramework.PersistentMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: QFramework.PersistentMonoSingleton<T>.Awake
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).Awake
+  nameWithType: PersistentMonoSingleton<T>.Awake
+  nameWithType.vb: PersistentMonoSingleton(Of T).Awake
+- uid: QFramework.PersistentMonoSingleton`1.Instance
+  name: Instance
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_Instance
+  commentId: P:QFramework.PersistentMonoSingleton`1.Instance
+  fullName: QFramework.PersistentMonoSingleton<T>.Instance
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).Instance
+  nameWithType: PersistentMonoSingleton<T>.Instance
+  nameWithType.vb: PersistentMonoSingleton(Of T).Instance
+- uid: QFramework.PersistentMonoSingleton`1.Instance*
+  name: Instance
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_Instance_
+  commentId: Overload:QFramework.PersistentMonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: QFramework.PersistentMonoSingleton<T>.Instance
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).Instance
+  nameWithType: PersistentMonoSingleton<T>.Instance
+  nameWithType.vb: PersistentMonoSingleton(Of T).Instance
+- uid: QFramework.PersistentMonoSingleton`1.mEnabled
+  name: mEnabled
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_mEnabled
+  commentId: F:QFramework.PersistentMonoSingleton`1.mEnabled
+  fullName: QFramework.PersistentMonoSingleton<T>.mEnabled
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).mEnabled
+  nameWithType: PersistentMonoSingleton<T>.mEnabled
+  nameWithType.vb: PersistentMonoSingleton(Of T).mEnabled
+- uid: QFramework.PersistentMonoSingleton`1.mInstance
+  name: mInstance
+  href: api/QFramework.PersistentMonoSingleton-1.html#QFramework_PersistentMonoSingleton_1_mInstance
+  commentId: F:QFramework.PersistentMonoSingleton`1.mInstance
+  fullName: QFramework.PersistentMonoSingleton<T>.mInstance
+  fullName.vb: QFramework.PersistentMonoSingleton(Of T).mInstance
+  nameWithType: PersistentMonoSingleton<T>.mInstance
+  nameWithType.vb: PersistentMonoSingleton(Of T).mInstance
+- uid: QFramework.ReplaceableMonoSingleton`1
+  name: ReplaceableMonoSingleton<T>
+  href: api/QFramework.ReplaceableMonoSingleton-1.html
+  commentId: T:QFramework.ReplaceableMonoSingleton`1
+  name.vb: ReplaceableMonoSingleton(Of T)
+  fullName: QFramework.ReplaceableMonoSingleton<T>
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T)
+  nameWithType: ReplaceableMonoSingleton<T>
+  nameWithType.vb: ReplaceableMonoSingleton(Of T)
+- uid: QFramework.ReplaceableMonoSingleton`1.Awake
+  name: Awake()
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_Awake
+  commentId: M:QFramework.ReplaceableMonoSingleton`1.Awake
+  fullName: QFramework.ReplaceableMonoSingleton<T>.Awake()
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).Awake()
+  nameWithType: ReplaceableMonoSingleton<T>.Awake()
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).Awake()
+- uid: QFramework.ReplaceableMonoSingleton`1.Awake*
+  name: Awake
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_Awake_
+  commentId: Overload:QFramework.ReplaceableMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: QFramework.ReplaceableMonoSingleton<T>.Awake
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).Awake
+  nameWithType: ReplaceableMonoSingleton<T>.Awake
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).Awake
+- uid: QFramework.ReplaceableMonoSingleton`1.InitializationTime
+  name: InitializationTime
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_InitializationTime
+  commentId: F:QFramework.ReplaceableMonoSingleton`1.InitializationTime
+  fullName: QFramework.ReplaceableMonoSingleton<T>.InitializationTime
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).InitializationTime
+  nameWithType: ReplaceableMonoSingleton<T>.InitializationTime
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).InitializationTime
+- uid: QFramework.ReplaceableMonoSingleton`1.Instance
+  name: Instance
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_Instance
+  commentId: P:QFramework.ReplaceableMonoSingleton`1.Instance
+  fullName: QFramework.ReplaceableMonoSingleton<T>.Instance
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).Instance
+  nameWithType: ReplaceableMonoSingleton<T>.Instance
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).Instance
+- uid: QFramework.ReplaceableMonoSingleton`1.Instance*
+  name: Instance
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_Instance_
+  commentId: Overload:QFramework.ReplaceableMonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: QFramework.ReplaceableMonoSingleton<T>.Instance
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).Instance
+  nameWithType: ReplaceableMonoSingleton<T>.Instance
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).Instance
+- uid: QFramework.ReplaceableMonoSingleton`1.mInstance
+  name: mInstance
+  href: api/QFramework.ReplaceableMonoSingleton-1.html#QFramework_ReplaceableMonoSingleton_1_mInstance
+  commentId: F:QFramework.ReplaceableMonoSingleton`1.mInstance
+  fullName: QFramework.ReplaceableMonoSingleton<T>.mInstance
+  fullName.vb: QFramework.ReplaceableMonoSingleton(Of T).mInstance
+  nameWithType: ReplaceableMonoSingleton<T>.mInstance
+  nameWithType.vb: ReplaceableMonoSingleton(Of T).mInstance
+- uid: QFramework.ScriptableSingletonProperty`1
+  name: ScriptableSingletonProperty<T>
+  href: api/QFramework.ScriptableSingletonProperty-1.html
+  commentId: T:QFramework.ScriptableSingletonProperty`1
+  name.vb: ScriptableSingletonProperty(Of T)
+  fullName: QFramework.ScriptableSingletonProperty<T>
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T)
+  nameWithType: ScriptableSingletonProperty<T>
+  nameWithType.vb: ScriptableSingletonProperty(Of T)
+- uid: QFramework.ScriptableSingletonProperty`1.Dispose
+  name: Dispose()
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_Dispose
+  commentId: M:QFramework.ScriptableSingletonProperty`1.Dispose
+  fullName: QFramework.ScriptableSingletonProperty<T>.Dispose()
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).Dispose()
+  nameWithType: ScriptableSingletonProperty<T>.Dispose()
+  nameWithType.vb: ScriptableSingletonProperty(Of T).Dispose()
+- uid: QFramework.ScriptableSingletonProperty`1.Dispose*
+  name: Dispose
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_Dispose_
+  commentId: Overload:QFramework.ScriptableSingletonProperty`1.Dispose
+  isSpec: "True"
+  fullName: QFramework.ScriptableSingletonProperty<T>.Dispose
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).Dispose
+  nameWithType: ScriptableSingletonProperty<T>.Dispose
+  nameWithType.vb: ScriptableSingletonProperty(Of T).Dispose
+- uid: QFramework.ScriptableSingletonProperty`1.Instance
+  name: Instance
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_Instance
+  commentId: P:QFramework.ScriptableSingletonProperty`1.Instance
+  fullName: QFramework.ScriptableSingletonProperty<T>.Instance
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).Instance
+  nameWithType: ScriptableSingletonProperty<T>.Instance
+  nameWithType.vb: ScriptableSingletonProperty(Of T).Instance
+- uid: QFramework.ScriptableSingletonProperty`1.Instance*
+  name: Instance
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_Instance_
+  commentId: Overload:QFramework.ScriptableSingletonProperty`1.Instance
+  isSpec: "True"
+  fullName: QFramework.ScriptableSingletonProperty<T>.Instance
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).Instance
+  nameWithType: ScriptableSingletonProperty<T>.Instance
+  nameWithType.vb: ScriptableSingletonProperty(Of T).Instance
+- uid: QFramework.ScriptableSingletonProperty`1.InstanceWithLoader(Func{System.String,`0})
+  name: InstanceWithLoader(Func<string, T>)
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_InstanceWithLoader_Func_System_String__0__
+  commentId: M:QFramework.ScriptableSingletonProperty`1.InstanceWithLoader(Func{System.String,`0})
+  name.vb: InstanceWithLoader(Func(Of String, T))
+  fullName: QFramework.ScriptableSingletonProperty<T>.InstanceWithLoader(Func<string, T>)
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).InstanceWithLoader(Func(Of String, T))
+  nameWithType: ScriptableSingletonProperty<T>.InstanceWithLoader(Func<string, T>)
+  nameWithType.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader(Func(Of String, T))
+- uid: QFramework.ScriptableSingletonProperty`1.InstanceWithLoader*
+  name: InstanceWithLoader
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_InstanceWithLoader_
+  commentId: Overload:QFramework.ScriptableSingletonProperty`1.InstanceWithLoader
+  isSpec: "True"
+  fullName: QFramework.ScriptableSingletonProperty<T>.InstanceWithLoader
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).InstanceWithLoader
+  nameWithType: ScriptableSingletonProperty<T>.InstanceWithLoader
+  nameWithType.vb: ScriptableSingletonProperty(Of T).InstanceWithLoader
+- uid: QFramework.ScriptableSingletonProperty`1.ScriptableLoader
+  name: ScriptableLoader
+  href: api/QFramework.ScriptableSingletonProperty-1.html#QFramework_ScriptableSingletonProperty_1_ScriptableLoader
+  commentId: F:QFramework.ScriptableSingletonProperty`1.ScriptableLoader
+  fullName: QFramework.ScriptableSingletonProperty<T>.ScriptableLoader
+  fullName.vb: QFramework.ScriptableSingletonProperty(Of T).ScriptableLoader
+  nameWithType: ScriptableSingletonProperty<T>.ScriptableLoader
+  nameWithType.vb: ScriptableSingletonProperty(Of T).ScriptableLoader
+- uid: QFramework.Singleton`1
+  name: Singleton<T>
+  href: api/QFramework.Singleton-1.html
+  commentId: T:QFramework.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: QFramework.Singleton<T>
+  fullName.vb: QFramework.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: QFramework.Singleton`1.Dispose
+  name: Dispose()
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_Dispose
+  commentId: M:QFramework.Singleton`1.Dispose
+  fullName: QFramework.Singleton<T>.Dispose()
+  fullName.vb: QFramework.Singleton(Of T).Dispose()
+  nameWithType: Singleton<T>.Dispose()
+  nameWithType.vb: Singleton(Of T).Dispose()
+- uid: QFramework.Singleton`1.Dispose*
+  name: Dispose
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_Dispose_
+  commentId: Overload:QFramework.Singleton`1.Dispose
+  isSpec: "True"
+  fullName: QFramework.Singleton<T>.Dispose
+  fullName.vb: QFramework.Singleton(Of T).Dispose
+  nameWithType: Singleton<T>.Dispose
+  nameWithType.vb: Singleton(Of T).Dispose
+- uid: QFramework.Singleton`1.Instance
+  name: Instance
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_Instance
+  commentId: P:QFramework.Singleton`1.Instance
+  fullName: QFramework.Singleton<T>.Instance
+  fullName.vb: QFramework.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: QFramework.Singleton`1.Instance*
+  name: Instance
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_Instance_
+  commentId: Overload:QFramework.Singleton`1.Instance
+  isSpec: "True"
+  fullName: QFramework.Singleton<T>.Instance
+  fullName.vb: QFramework.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: QFramework.Singleton`1.mInstance
+  name: mInstance
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_mInstance
+  commentId: F:QFramework.Singleton`1.mInstance
+  fullName: QFramework.Singleton<T>.mInstance
+  fullName.vb: QFramework.Singleton(Of T).mInstance
+  nameWithType: Singleton<T>.mInstance
+  nameWithType.vb: Singleton(Of T).mInstance
+- uid: QFramework.Singleton`1.OnSingletonInit
+  name: OnSingletonInit()
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_OnSingletonInit
+  commentId: M:QFramework.Singleton`1.OnSingletonInit
+  fullName: QFramework.Singleton<T>.OnSingletonInit()
+  fullName.vb: QFramework.Singleton(Of T).OnSingletonInit()
+  nameWithType: Singleton<T>.OnSingletonInit()
+  nameWithType.vb: Singleton(Of T).OnSingletonInit()
+- uid: QFramework.Singleton`1.OnSingletonInit*
+  name: OnSingletonInit
+  href: api/QFramework.Singleton-1.html#QFramework_Singleton_1_OnSingletonInit_
+  commentId: Overload:QFramework.Singleton`1.OnSingletonInit
+  isSpec: "True"
+  fullName: QFramework.Singleton<T>.OnSingletonInit
+  fullName.vb: QFramework.Singleton(Of T).OnSingletonInit
+  nameWithType: Singleton<T>.OnSingletonInit
+  nameWithType.vb: Singleton(Of T).OnSingletonInit
+- uid: QFramework.SingletonProperty`1
+  name: SingletonProperty<T>
+  href: api/QFramework.SingletonProperty-1.html
+  commentId: T:QFramework.SingletonProperty`1
+  name.vb: SingletonProperty(Of T)
+  fullName: QFramework.SingletonProperty<T>
+  fullName.vb: QFramework.SingletonProperty(Of T)
+  nameWithType: SingletonProperty<T>
+  nameWithType.vb: SingletonProperty(Of T)
+- uid: QFramework.SingletonProperty`1.Dispose
+  name: Dispose()
+  href: api/QFramework.SingletonProperty-1.html#QFramework_SingletonProperty_1_Dispose
+  commentId: M:QFramework.SingletonProperty`1.Dispose
+  fullName: QFramework.SingletonProperty<T>.Dispose()
+  fullName.vb: QFramework.SingletonProperty(Of T).Dispose()
+  nameWithType: SingletonProperty<T>.Dispose()
+  nameWithType.vb: SingletonProperty(Of T).Dispose()
+- uid: QFramework.SingletonProperty`1.Dispose*
+  name: Dispose
+  href: api/QFramework.SingletonProperty-1.html#QFramework_SingletonProperty_1_Dispose_
+  commentId: Overload:QFramework.SingletonProperty`1.Dispose
+  isSpec: "True"
+  fullName: QFramework.SingletonProperty<T>.Dispose
+  fullName.vb: QFramework.SingletonProperty(Of T).Dispose
+  nameWithType: SingletonProperty<T>.Dispose
+  nameWithType.vb: SingletonProperty(Of T).Dispose
+- uid: QFramework.SingletonProperty`1.Instance
+  name: Instance
+  href: api/QFramework.SingletonProperty-1.html#QFramework_SingletonProperty_1_Instance
+  commentId: P:QFramework.SingletonProperty`1.Instance
+  fullName: QFramework.SingletonProperty<T>.Instance
+  fullName.vb: QFramework.SingletonProperty(Of T).Instance
+  nameWithType: SingletonProperty<T>.Instance
+  nameWithType.vb: SingletonProperty(Of T).Instance
+- uid: QFramework.SingletonProperty`1.Instance*
+  name: Instance
+  href: api/QFramework.SingletonProperty-1.html#QFramework_SingletonProperty_1_Instance_
+  commentId: Overload:QFramework.SingletonProperty`1.Instance
+  isSpec: "True"
+  fullName: QFramework.SingletonProperty<T>.Instance
+  fullName.vb: QFramework.SingletonProperty(Of T).Instance
+  nameWithType: SingletonProperty<T>.Instance
+  nameWithType.vb: SingletonProperty(Of T).Instance
 - uid: System.Collections.Generic
   name: System.Collections.Generic
   href: api/System.Collections.Generic.html
@@ -2079,50 +2085,6 @@ references:
   commentId: Overload:System.Collections.Generic.PriorityQueue`2.UnorderedItemsCollection.System#Collections#IEnumerable#GetEnumerator
   fullName: System.Collections.Generic.PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.System.Collections.IEnumerable.GetEnumerator
   nameWithType: PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.IEnumerable.GetEnumerator
-- uid: SystemExtension
-  name: SystemExtension
-  href: api/SystemExtension.html
-  commentId: N:SystemExtension
-  fullName: SystemExtension
-  nameWithType: SystemExtension
-- uid: SystemExtension.ArgumentExceptionExtention
-  name: ArgumentExceptionExtention
-  href: api/SystemExtension.ArgumentExceptionExtention.html
-  commentId: T:SystemExtension.ArgumentExceptionExtention
-  fullName: SystemExtension.ArgumentExceptionExtention
-  nameWithType: ArgumentExceptionExtention
-- uid: SystemExtension.ArgumentExceptionExtention.ThrowIfNegative(System.Int32,System.String)
-  name: ThrowIfNegative(int, string)
-  href: api/SystemExtension.ArgumentExceptionExtention.html#SystemExtension_ArgumentExceptionExtention_ThrowIfNegative_System_Int32_System_String_
-  commentId: M:SystemExtension.ArgumentExceptionExtention.ThrowIfNegative(System.Int32,System.String)
-  name.vb: ThrowIfNegative(Integer, String)
-  fullName: SystemExtension.ArgumentExceptionExtention.ThrowIfNegative(int, string)
-  fullName.vb: SystemExtension.ArgumentExceptionExtention.ThrowIfNegative(Integer, String)
-  nameWithType: ArgumentExceptionExtention.ThrowIfNegative(int, string)
-  nameWithType.vb: ArgumentExceptionExtention.ThrowIfNegative(Integer, String)
-- uid: SystemExtension.ArgumentExceptionExtention.ThrowIfNegative*
-  name: ThrowIfNegative
-  href: api/SystemExtension.ArgumentExceptionExtention.html#SystemExtension_ArgumentExceptionExtention_ThrowIfNegative_
-  commentId: Overload:SystemExtension.ArgumentExceptionExtention.ThrowIfNegative
-  isSpec: "True"
-  fullName: SystemExtension.ArgumentExceptionExtention.ThrowIfNegative
-  nameWithType: ArgumentExceptionExtention.ThrowIfNegative
-- uid: SystemExtension.ArgumentExceptionExtention.ThrowIfNull(System.Object,System.String)
-  name: ThrowIfNull(object?, string?)
-  href: api/SystemExtension.ArgumentExceptionExtention.html#SystemExtension_ArgumentExceptionExtention_ThrowIfNull_System_Object_System_String_
-  commentId: M:SystemExtension.ArgumentExceptionExtention.ThrowIfNull(System.Object,System.String)
-  name.vb: ThrowIfNull(Object, String)
-  fullName: SystemExtension.ArgumentExceptionExtention.ThrowIfNull(object?, string?)
-  fullName.vb: SystemExtension.ArgumentExceptionExtention.ThrowIfNull(Object, String)
-  nameWithType: ArgumentExceptionExtention.ThrowIfNull(object?, string?)
-  nameWithType.vb: ArgumentExceptionExtention.ThrowIfNull(Object, String)
-- uid: SystemExtension.ArgumentExceptionExtention.ThrowIfNull*
-  name: ThrowIfNull
-  href: api/SystemExtension.ArgumentExceptionExtention.html#SystemExtension_ArgumentExceptionExtention_ThrowIfNull_
-  commentId: Overload:SystemExtension.ArgumentExceptionExtention.ThrowIfNull
-  isSpec: "True"
-  fullName: SystemExtension.ArgumentExceptionExtention.ThrowIfNull
-  nameWithType: ArgumentExceptionExtention.ThrowIfNull
 - uid: TMPro
   name: TMPro
   href: api/TMPro.html

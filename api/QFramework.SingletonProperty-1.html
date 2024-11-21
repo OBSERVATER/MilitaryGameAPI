@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class LoadPanel
+      <title>Class SingletonProperty&lt;T&gt;
  | 兵棋项目API文档 </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class LoadPanel
+      <meta name="title" content="Class SingletonProperty&lt;T&gt;
  | 兵棋项目API文档 ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,38 +77,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MilitaryGame.MapEditor.LoadPanel">
+            <article class="content wrap" id="_content" data-uid="QFramework.SingletonProperty`1">
 
 
-  <h1 id="MilitaryGame_MapEditor_LoadPanel" data-uid="MilitaryGame.MapEditor.LoadPanel" class="text-break">Class LoadPanel
+  <h1 id="QFramework_SingletonProperty_1" data-uid="QFramework.SingletonProperty`1" class="text-break">Class SingletonProperty&lt;T&gt;
 </h1>
-  <div class="markdown level0 summary"><p>加载面板</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">LoadPanel</span></div>
+    <div class="level1"><span class="xref">SingletonProperty&lt;T&gt;</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <span class="xref">MilitaryGame</span>.<a class="xref" href="MilitaryGame.MapEditor.html">MapEditor</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="QFramework.html">QFramework</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="MilitaryGame_MapEditor_LoadPanel_syntax">Syntax</h5>
+  <h5 id="QFramework_SingletonProperty_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoadPanel : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SingletonProperty&lt;T&gt; where T : class, ISingleton</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
 </h3>
 
 
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_goParent" data-uid="MilitaryGame.MapEditor.LoadPanel.goParent">goParent</h4>
-  <div class="markdown level1 summary"><p>滚动视图</p>
+  <a id="QFramework_SingletonProperty_1_Instance_" data-uid="QFramework.SingletonProperty`1.Instance*"></a>
+  <h4 id="QFramework_SingletonProperty_1_Instance" data-uid="QFramework.SingletonProperty`1.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>静态属性</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform goParent</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,107 +157,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_itemImagePrefab" data-uid="MilitaryGame.MapEditor.LoadPanel.itemImagePrefab">itemImagePrefab</h4>
-  <div class="markdown level1 summary"><p>显示地图信息的预制体</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject itemImagePrefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_loadButton" data-uid="MilitaryGame.MapEditor.LoadPanel.loadButton">loadButton</h4>
-  <div class="markdown level1 summary"><p>加载按钮</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button loadButton</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Button</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_quitButton" data-uid="MilitaryGame.MapEditor.LoadPanel.quitButton">quitButton</h4>
-  <div class="markdown level1 summary"><p>关闭面板按钮</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button quitButton</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Button</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_scrollbar" data-uid="MilitaryGame.MapEditor.LoadPanel.scrollbar">scrollbar</h4>
-  <div class="markdown level1 summary"><p>滚动的按钮，用于控制其大小</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Scrollbar scrollbar</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Scrollbar</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -227,14 +166,14 @@
 </h3>
 
 
-  <a id="MilitaryGame_MapEditor_LoadPanel_LoadFromFile_" data-uid="MilitaryGame.MapEditor.LoadPanel.LoadFromFile*"></a>
-  <h4 id="MilitaryGame_MapEditor_LoadPanel_LoadFromFile" data-uid="MilitaryGame.MapEditor.LoadPanel.LoadFromFile">LoadFromFile()</h4>
-  <div class="markdown level1 summary"><p>负责加载文件并处理视图对象。</p>
+  <a id="QFramework_SingletonProperty_1_Dispose_" data-uid="QFramework.SingletonProperty`1.Dispose*"></a>
+  <h4 id="QFramework_SingletonProperty_1_Dispose" data-uid="QFramework.SingletonProperty`1.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>资源释放</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LoadFromFile()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Dispose()</code></pre>
   </div>
 </article>
           </div>

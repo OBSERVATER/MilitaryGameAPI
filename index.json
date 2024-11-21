@@ -2,7 +2,7 @@
   "api/Global.CameraMove.html": {
     "href": "api/Global.CameraMove.html",
     "title": "Class CameraMove | 兵棋项目API文档",
-    "keywords": "Class CameraMove Inheritance object CameraMove Namespace: Global Assembly: cs.temp.dll.dll Syntax public class CameraMove : MonoBehaviour Methods AdjustPosition(float, float) Declaration public void AdjustPosition(float xDelta, float yDelta) Parameters Type Name Description float xDelta float yDelta"
+    "keywords": "Class CameraMove 相机移动相关脚本 Inheritance object CameraMove Namespace: Global Assembly: cs.temp.dll.dll Syntax public class CameraMove : MonoBehaviour Methods AdjustPosition(float, float) 移动相机 Declaration public void AdjustPosition(float xDelta, float yDelta) Parameters Type Name Description float xDelta x偏移值 float yDelta y偏移值"
   },
   "api/Global.ChatController.html": {
     "href": "api/Global.ChatController.html",
@@ -22,7 +22,7 @@
   "api/Global.GameController.html": {
     "href": "api/Global.GameController.html",
     "title": "Class GameController | 兵棋项目API文档",
-    "keywords": "Class GameController ��Ϸ���ƽű� Inheritance object GameController Namespace: Global Assembly: cs.temp.dll.dll Syntax public class GameController : MonoBehaviour Fields selectedHexes ��� ����ѡ�еġ����Ǹ񡱵���Ϸ���� Declaration public static List<GameObject> selectedHexes Field Value Type Description System.Collections.Generic.List<T><GameObject>"
+    "keywords": "Class GameController 游戏控制脚本 Inheritance object GameController Namespace: Global Assembly: cs.temp.dll.dll Syntax public class GameController : MonoBehaviour Fields selectedHexes 存放我们选中的“六角格”的游戏物体 Declaration public static List<GameObject> selectedHexes Field Value Type Description System.Collections.Generic.List<T><GameObject>"
   },
   "api/Global.GridDirection.html": {
     "href": "api/Global.GridDirection.html",
@@ -37,57 +37,12 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace | 兵棋项目API文档",
-    "keywords": "Namespace Classes CameraMove ChatController DropdownSample EnvMapAnimator GameController ��Ϸ���ƽű� HexGrid 格子 MapHexElement ��һ�����Ǹ�ĵ��Ρ���������������·����Ϣչʾ���� MonoSingleton<T> MonoSingletonPathAttribute MonoSingletonProperty<T> PersistentMonoSingleton<T> ReplaceableMonoSingleton<T> ScriptableSingletonProperty<T> Singleton<T> SingletonProperty<T> Interfaces ISingleton 单例接口 Enums GridDirection 六角格的六个方向，顺序是从右上角开始顺时针 TerrainType 地形"
-  },
-  "api/Global.ISingleton.html": {
-    "href": "api/Global.ISingleton.html",
-    "title": "Interface ISingleton | 兵棋项目API文档",
-    "keywords": "Interface ISingleton 单例接口 Namespace: Global Assembly: cs.temp.dll.dll Syntax public interface ISingleton Methods OnSingletonInit() 单例初始化(继承当前接口的类都需要实现该方法) Declaration void OnSingletonInit()"
+    "keywords": "Namespace Classes CameraMove 相机移动相关脚本 ChatController DropdownSample EnvMapAnimator GameController 游戏控制脚本 HexGrid 格子 MapHexElement 把一个六角格的地形、建筑、河流、道路等信息展示出来 Enums GridDirection 六角格的六个方向，顺序是从右上角开始顺时针 TerrainType 地形"
   },
   "api/Global.MapHexElement.html": {
     "href": "api/Global.MapHexElement.html",
     "title": "Class MapHexElement | 兵棋项目API文档",
-    "keywords": "Class MapHexElement ��һ�����Ǹ�ĵ��Ρ���������������·����Ϣչʾ���� Inheritance object MapHexElement Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public class MapHexElement Properties construction ���� Declaration public int construction { get; set; } Property Value Type Description int int isRouteCovered ��������Ƿ���· Declaration public bool isRouteCovered { get; set; } Property Value Type Description bool isWideRoad �Ƿ�Ϊ��· Declaration public bool isWideRoad { get; set; } Property Value Type Description bool position ������� Declaration public Vector2Int position { get; set; } Property Value Type Description Vector2Int Vector2Int terrain �������� Declaration public TerrainType terrain { get; set; } Property Value Type Description TerrainType TerrainType"
-  },
-  "api/Global.MonoSingleton-1.html": {
-    "href": "api/Global.MonoSingleton-1.html",
-    "title": "Class MonoSingleton<T> | 兵棋项目API文档",
-    "keywords": "Class MonoSingleton<T> Inheritance object MonoSingleton<T> MapManager Implements ISingleton Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class MonoSingleton<T> : MonoBehaviour, ISingleton where T : MonoSingleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性：封装相关实例对象 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnApplicationQuit() 应用程序退出：释放当前对象并销毁相关GameObject Declaration protected virtual void OnApplicationQuit() OnDestroy() 释放当前对象 Declaration protected virtual void OnDestroy() OnSingletonInit() 实现接口的单例初始化 Declaration public virtual void OnSingletonInit() Implements ISingleton"
-  },
-  "api/Global.MonoSingletonPathAttribute.html": {
-    "href": "api/Global.MonoSingletonPathAttribute.html",
-    "title": "Class MonoSingletonPathAttribute | 兵棋项目API文档",
-    "keywords": "Class MonoSingletonPathAttribute Inheritance object MonoSingletonPathAttribute Namespace: Global Assembly: cs.temp.dll.dll Syntax public class MonoSingletonPathAttribute : Attribute Constructors MonoSingletonPathAttribute(string) Declaration public MonoSingletonPathAttribute(string pathInHierarchy) Parameters Type Name Description string pathInHierarchy Properties PathInHierarchy Declaration public string PathInHierarchy { get; } Property Value Type Description string"
-  },
-  "api/Global.MonoSingletonProperty-1.html": {
-    "href": "api/Global.MonoSingletonProperty-1.html",
-    "title": "Class MonoSingletonProperty<T> | 兵棋项目API文档",
-    "keywords": "Class MonoSingletonProperty<T> Inheritance object MonoSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public static class MonoSingletonProperty<T> where T : MonoBehaviour, ISingleton Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose()"
-  },
-  "api/Global.PersistentMonoSingleton-1.html": {
-    "href": "api/Global.PersistentMonoSingleton-1.html",
-    "title": "Class PersistentMonoSingleton<T> | 兵棋项目API文档",
-    "keywords": "Class PersistentMonoSingleton<T> Inheritance object PersistentMonoSingleton<T> Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class PersistentMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields mEnabled Declaration protected bool mEnabled Field Value Type Description bool mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
-  },
-  "api/Global.ReplaceableMonoSingleton-1.html": {
-    "href": "api/Global.ReplaceableMonoSingleton-1.html",
-    "title": "Class ReplaceableMonoSingleton<T> | 兵棋项目API文档",
-    "keywords": "Class ReplaceableMonoSingleton<T> Inheritance object ReplaceableMonoSingleton<T> Namespace: Global Assembly: cs.temp.dll.dll Syntax public class ReplaceableMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields InitializationTime Declaration public float InitializationTime Field Value Type Description float mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
-  },
-  "api/Global.ScriptableSingletonProperty-1.html": {
-    "href": "api/Global.ScriptableSingletonProperty-1.html",
-    "title": "Class ScriptableSingletonProperty<T> | 兵棋项目API文档",
-    "keywords": "Class ScriptableSingletonProperty<T> Inheritance object ScriptableSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public class ScriptableSingletonProperty<T> where T : ScriptableObject Type Parameters Name Description T Fields ScriptableLoader Declaration public static Func<string, T> ScriptableLoader Field Value Type Description Func<, ><string, T> Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose() InstanceWithLoader(Func<string, T>) Declaration public static T InstanceWithLoader(Func<string, T> loader) Parameters Type Name Description Func<, ><string, T> loader Returns Type Description T"
-  },
-  "api/Global.Singleton-1.html": {
-    "href": "api/Global.Singleton-1.html",
-    "title": "Class Singleton<T> | 兵棋项目API文档",
-    "keywords": "Class Singleton<T> Inheritance object Singleton<T> Implements ISingleton Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public abstract class Singleton<T> : ISingleton where T : Singleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnSingletonInit() 单例初始化方法 Declaration public virtual void OnSingletonInit() Implements ISingleton"
-  },
-  "api/Global.SingletonProperty-1.html": {
-    "href": "api/Global.SingletonProperty-1.html",
-    "title": "Class SingletonProperty<T> | 兵棋项目API文档",
-    "keywords": "Class SingletonProperty<T> Inheritance object SingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public static class SingletonProperty<T> where T : class, ISingleton Type Parameters Name Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public static void Dispose()"
+    "keywords": "Class MapHexElement 把一个六角格的地形、建筑、河流、道路等信息展示出来 Inheritance object MapHexElement Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: Global Assembly: cs.temp.dll.dll Syntax public class MapHexElement Properties construction 建筑 Declaration public int construction { get; set; } Property Value Type Description int int isRouteCovered 这个格子是否建了路 Declaration public bool isRouteCovered { get; set; } Property Value Type Description bool isWideRoad 是否为大路 Declaration public bool isWideRoad { get; set; } Property Value Type Description bool position 相对坐标 Declaration public Vector2Int position { get; set; } Property Value Type Description Vector2Int Vector2Int terrain 地形类型 Declaration public TerrainType terrain { get; set; } Property Value Type Description TerrainType TerrainType"
   },
   "api/Global.TerrainType.html": {
     "href": "api/Global.TerrainType.html",
@@ -97,22 +52,22 @@
   "api/MilitaryGame.MapEditor.GeneralPanel.html": {
     "href": "api/MilitaryGame.MapEditor.GeneralPanel.html",
     "title": "Class GeneralPanel | 兵棋项目API文档",
-    "keywords": "Class GeneralPanel Inheritance object GeneralPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class GeneralPanel : MonoBehaviour Fields createMapBtn 创建地图按钮 Declaration public Button createMapBtn Field Value Type Description Button deleteMapBtn 删除地图按钮 Declaration public Button deleteMapBtn Field Value Type Description Button loadMapBtn 加载地图按钮 Declaration public Button loadMapBtn Field Value Type Description Button loadPanel 加载地图面板 Declaration public GameObject loadPanel Field Value Type Description GameObject MapHeight 地图高度输入区 Declaration public InputField MapHeight Field Value Type Description InputField MapWidth 地图宽度输入区 Declaration public InputField MapWidth Field Value Type Description InputField roadPanel 道路面板 Declaration public GameObject roadPanel Field Value Type Description GameObject roadPanelBtn 道路面板呼出按钮 Declaration public Button roadPanelBtn Field Value Type Description Button saveMapBtn 保存地图按钮 Declaration public Button saveMapBtn Field Value Type Description Button savePanel 保存地图面板 Declaration public GameObject savePanel Field Value Type Description GameObject terrainPanel 地形面板 Declaration public GameObject terrainPanel Field Value Type Description GameObject terrainPanelBtn 地形面板呼出按钮 Declaration public Button terrainPanelBtn Field Value Type Description Button Methods CreateMap() 创建地图方法 Declaration public void CreateMap() DeleteMap() 清空地图方法 Declaration public void DeleteMap() LoadMap() 加载地图方法 Declaration public void LoadMap()"
+    "keywords": "Class GeneralPanel 总体界面 Inheritance object GeneralPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class GeneralPanel : MonoBehaviour Remarks 左边粉色的那个 Fields createMapBtn 创建地图按钮 Declaration public Button createMapBtn Field Value Type Description Button Remarks 左边粉色的那个 deleteMapBtn 删除地图按钮 Declaration public Button deleteMapBtn Field Value Type Description Button Remarks 左边粉色的那个 loadMapBtn 加载地图按钮 Declaration public Button loadMapBtn Field Value Type Description Button Remarks 左边粉色的那个 loadPanel 加载地图面板 Declaration public GameObject loadPanel Field Value Type Description GameObject Remarks 左边粉色的那个 MapHeight 地图高度输入区 Declaration public InputField MapHeight Field Value Type Description InputField Remarks 左边粉色的那个 MapWidth 地图宽度输入区 Declaration public InputField MapWidth Field Value Type Description InputField Remarks 左边粉色的那个 roadPanel 道路面板 Declaration public GameObject roadPanel Field Value Type Description GameObject Remarks 左边粉色的那个 roadPanelBtn 道路面板呼出按钮 Declaration public Button roadPanelBtn Field Value Type Description Button Remarks 左边粉色的那个 saveMapBtn 保存地图按钮 Declaration public Button saveMapBtn Field Value Type Description Button Remarks 左边粉色的那个 savePanel 保存地图面板 Declaration public GameObject savePanel Field Value Type Description GameObject Remarks 左边粉色的那个 terrainPanel 地形面板 Declaration public GameObject terrainPanel Field Value Type Description GameObject Remarks 左边粉色的那个 terrainPanelBtn 地形面板呼出按钮 Declaration public Button terrainPanelBtn Field Value Type Description Button Remarks 左边粉色的那个 Methods CreateMap() 创建地图方法 Declaration public void CreateMap() Remarks 左边粉色的那个 DeleteMap() 清空地图方法 Declaration public void DeleteMap() Remarks 左边粉色的那个 LoadMap() 加载地图方法 Declaration public void LoadMap() Remarks 左边粉色的那个"
   },
   "api/MilitaryGame.MapEditor.html": {
     "href": "api/MilitaryGame.MapEditor.html",
     "title": "Namespace MilitaryGame.MapEditor | 兵棋项目API文档",
-    "keywords": "Namespace MilitaryGame.MapEditor Classes GeneralPanel LoadPanel MapData 整个地图的数据结构 MapManager 地图管理器 MapViewContent 加载面板的显示地图信息的地方 Route 道路的组件 RoutePanel 道路面板 SaveLoadSystem SavePanel 保存面板 TerrainController 地形控制 TerrainPanel 地形面板 Interfaces ISaveLoadSystem"
+    "keywords": "Namespace MilitaryGame.MapEditor Classes GeneralPanel 总体界面 LoadPanel 加载面板 MapData 整个地图的数据结构 MapManager 地图管理器 MapViewContent 加载面板的显示地图信息的地方 Route 道路的组件 RoutePanel 道路面板 SaveLoadSystem 保存加载系统 SavePanel 保存面板 TerrainController 地形控制 TerrainPanel 地形面板 Interfaces ISaveLoadSystem 保存加载系统的接口"
   },
   "api/MilitaryGame.MapEditor.ISaveLoadSystem.html": {
     "href": "api/MilitaryGame.MapEditor.ISaveLoadSystem.html",
     "title": "Interface ISaveLoadSystem | 兵棋项目API文档",
-    "keywords": "Interface ISaveLoadSystem Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public interface ISaveLoadSystem Methods Load(MapData) 加载地图 Declaration bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool 是否加载成功 Save(string) 保存地图 Declaration string Save(string fileName = \"\") Parameters Type Name Description string fileName Returns Type Description string 存档文件名字"
+    "keywords": "Interface ISaveLoadSystem 保存加载系统的接口 Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public interface ISaveLoadSystem Methods Load(MapData) 加载地图 Declaration bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool 是否加载成功 Save(string) 保存地图 Declaration string Save(string fileName = \"\") Parameters Type Name Description string fileName 文档名 Returns Type Description string 存档文件名字"
   },
   "api/MilitaryGame.MapEditor.LoadPanel.html": {
     "href": "api/MilitaryGame.MapEditor.LoadPanel.html",
     "title": "Class LoadPanel | 兵棋项目API文档",
-    "keywords": "Class LoadPanel Inheritance object LoadPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class LoadPanel : MonoBehaviour Fields goParent 滚动视图 Declaration public Transform goParent Field Value Type Description Transform itemImagePrefab 显示地图信息的预制体 Declaration public GameObject itemImagePrefab Field Value Type Description GameObject loadButton 加载按钮 Declaration public Button loadButton Field Value Type Description Button quitButton 关闭面板按钮 Declaration public Button quitButton Field Value Type Description Button scrollbar 滚动的按钮，用于控制其大小 Declaration public Scrollbar scrollbar Field Value Type Description Scrollbar Methods LoadFromFile() 负责加载文件并处理视图对象。 Declaration public void LoadFromFile()"
+    "keywords": "Class LoadPanel 加载面板 Inheritance object LoadPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class LoadPanel : MonoBehaviour Fields goParent 滚动视图 Declaration public Transform goParent Field Value Type Description Transform itemImagePrefab 显示地图信息的预制体 Declaration public GameObject itemImagePrefab Field Value Type Description GameObject loadButton 加载按钮 Declaration public Button loadButton Field Value Type Description Button quitButton 关闭面板按钮 Declaration public Button quitButton Field Value Type Description Button scrollbar 滚动的按钮，用于控制其大小 Declaration public Scrollbar scrollbar Field Value Type Description Scrollbar Methods LoadFromFile() 负责加载文件并处理视图对象。 Declaration public void LoadFromFile()"
   },
   "api/MilitaryGame.MapEditor.MapData.html": {
     "href": "api/MilitaryGame.MapEditor.MapData.html",
@@ -122,7 +77,7 @@
   "api/MilitaryGame.MapEditor.MapManager.html": {
     "href": "api/MilitaryGame.MapEditor.MapManager.html",
     "title": "Class MapManager | 兵棋项目API文档",
-    "keywords": "Class MapManager 地图管理器 Inheritance object MonoSingleton<MapManager> MapManager Implements ISingleton Inherited Members MonoSingleton<MapManager>.mInstance MonoSingleton<MapManager>.Instance MonoSingleton<MapManager>.OnSingletonInit() MonoSingleton<MapManager>.Dispose() MonoSingleton<MapManager>.OnApplicationQuit() MonoSingleton<MapManager>.OnDestroy() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class MapManager : MonoSingleton<MapManager>, ISingleton Fields hasRouteGrid 没用，先放着 Declaration public HashSet<GameObject> hasRouteGrid Field Value Type Description System.Collections.Generic.HashSet<T><GameObject> hexGrid 存放地图上的所有“六角格”的游戏物体 Declaration public GameObject[,] hexGrid Field Value Type Description GameObject[,] mapHeight 地图高度 Declaration public int mapHeight Field Value Type Description int mapWidth 地图宽度 Declaration public int mapWidth Field Value Type Description int saveLoadSystem 保存加载系统 Declaration public SaveLoadSystem saveLoadSystem Field Value Type Description SaveLoadSystem Methods CreateMap(int, int) 创建地图 Declaration public void CreateMap(int hor, int vert) Parameters Type Name Description int hor 地图长度 int vert 地图宽度 DeleteMap() 删除地图 Declaration public void DeleteMap() GetHexPosition(int, int) 输入参数行列坐标（i，j），输出该格子相对于地图的坐标 Declaration public Vector3 GetHexPosition(int i, int j) Parameters Type Name Description int i x int j y Returns Type Description Vector3 Vector3地图坐标 Implements ISingleton"
+    "keywords": "Class MapManager 地图管理器 Inheritance object MapManager Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class MapManager : MonoSingleton<MapManager> Fields hasRouteGrid 没用，先放着 Declaration public HashSet<GameObject> hasRouteGrid Field Value Type Description System.Collections.Generic.HashSet<T><GameObject> hexGrid 存放地图上的所有“六角格”的游戏物体 Declaration public GameObject[,] hexGrid Field Value Type Description GameObject[,] mapHeight 地图高度 Declaration public int mapHeight Field Value Type Description int mapWidth 地图宽度 Declaration public int mapWidth Field Value Type Description int saveLoadSystem 保存加载系统 Declaration public SaveLoadSystem saveLoadSystem Field Value Type Description SaveLoadSystem Methods CreateMap(int, int) 创建地图 Declaration public void CreateMap(int hor, int vert) Parameters Type Name Description int hor 地图长度 int vert 地图宽度 DeleteMap() 删除地图 Declaration public void DeleteMap() GetHexPosition(int, int) 输入参数行列坐标（i，j），输出该格子相对于地图的坐标 Declaration public Vector3 GetHexPosition(int i, int j) Parameters Type Name Description int i x int j y Returns Type Description Vector3 Vector3地图坐标"
   },
   "api/MilitaryGame.MapEditor.MapViewContent.html": {
     "href": "api/MilitaryGame.MapEditor.MapViewContent.html",
@@ -142,7 +97,7 @@
   "api/MilitaryGame.MapEditor.SaveLoadSystem.html": {
     "href": "api/MilitaryGame.MapEditor.SaveLoadSystem.html",
     "title": "Class SaveLoadSystem | 兵棋项目API文档",
-    "keywords": "Class SaveLoadSystem Inheritance object SaveLoadSystem Implements ISaveLoadSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class SaveLoadSystem : ISaveLoadSystem Methods Load(MapData) Declaration public bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool Save(string) Declaration public string Save(string fileName = \"\") Parameters Type Name Description string fileName Returns Type Description string Implements ISaveLoadSystem"
+    "keywords": "Class SaveLoadSystem 保存加载系统 Inheritance object SaveLoadSystem Implements ISaveLoadSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class SaveLoadSystem : ISaveLoadSystem Methods Load(MapData) Declaration public bool Load(MapData mapData) Parameters Type Name Description MapData mapData Returns Type Description bool Save(string) Declaration public string Save(string fileName = \"\") Parameters Type Name Description string fileName Returns Type Description string Implements ISaveLoadSystem"
   },
   "api/MilitaryGame.MapEditor.SavePanel.html": {
     "href": "api/MilitaryGame.MapEditor.SavePanel.html",
@@ -158,6 +113,56 @@
     "href": "api/MilitaryGame.MapEditor.TerrainPanel.html",
     "title": "Class TerrainPanel | 兵棋项目API文档",
     "keywords": "Class TerrainPanel 地形面板 Inheritance object TerrainPanel Namespace: MilitaryGame.MapEditor Assembly: cs.temp.dll.dll Syntax public class TerrainPanel : MonoBehaviour Fields deepForestBtn 深林 Declaration public Button deepForestBtn Field Value Type Description Button forestBtn 森林 Declaration public Button forestBtn Field Value Type Description Button greatRiverBtn 大河 Declaration public Button greatRiverBtn Field Value Type Description Button hillBtn 山地 Declaration public Button hillBtn Field Value Type Description Button miniRiverBtn 小河 Declaration public Button miniRiverBtn Field Value Type Description Button plainBtn 平原 Declaration public Button plainBtn Field Value Type Description Button recoverBtn Declaration public Button recoverBtn Field Value Type Description Button Methods SetTerrain(TerrainType) 平原1，山2，小森林3，大森林4，小河流5，大河流6 Declaration public void SetTerrain(TerrainType terrain) Parameters Type Name Description TerrainType terrain"
+  },
+  "api/QFramework.html": {
+    "href": "api/QFramework.html",
+    "title": "Namespace QFramework | 兵棋项目API文档",
+    "keywords": "Namespace QFramework Classes MonoSingleton<T> MonoSingletonPathAttribute MonoSingletonProperty<T> PersistentMonoSingleton<T> ReplaceableMonoSingleton<T> ScriptableSingletonProperty<T> Singleton<T> SingletonProperty<T> Interfaces ISingleton 单例接口"
+  },
+  "api/QFramework.ISingleton.html": {
+    "href": "api/QFramework.ISingleton.html",
+    "title": "Interface ISingleton | 兵棋项目API文档",
+    "keywords": "Interface ISingleton 单例接口 Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public interface ISingleton Methods OnSingletonInit() 单例初始化(继承当前接口的类都需要实现该方法) Declaration void OnSingletonInit()"
+  },
+  "api/QFramework.MonoSingleton-1.html": {
+    "href": "api/QFramework.MonoSingleton-1.html",
+    "title": "Class MonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class MonoSingleton<T> Inheritance object MonoSingleton<T> Implements ISingleton Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public abstract class MonoSingleton<T> : MonoBehaviour, ISingleton where T : MonoSingleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性：封装相关实例对象 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnApplicationQuit() 应用程序退出：释放当前对象并销毁相关GameObject Declaration protected virtual void OnApplicationQuit() OnDestroy() 释放当前对象 Declaration protected virtual void OnDestroy() OnSingletonInit() 实现接口的单例初始化 Declaration public virtual void OnSingletonInit() Implements ISingleton"
+  },
+  "api/QFramework.MonoSingletonPathAttribute.html": {
+    "href": "api/QFramework.MonoSingletonPathAttribute.html",
+    "title": "Class MonoSingletonPathAttribute | 兵棋项目API文档",
+    "keywords": "Class MonoSingletonPathAttribute Inheritance object MonoSingletonPathAttribute Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public class MonoSingletonPathAttribute : Attribute Constructors MonoSingletonPathAttribute(string) Declaration public MonoSingletonPathAttribute(string pathInHierarchy) Parameters Type Name Description string pathInHierarchy Properties PathInHierarchy Declaration public string PathInHierarchy { get; } Property Value Type Description string"
+  },
+  "api/QFramework.MonoSingletonProperty-1.html": {
+    "href": "api/QFramework.MonoSingletonProperty-1.html",
+    "title": "Class MonoSingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class MonoSingletonProperty<T> Inheritance object MonoSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public static class MonoSingletonProperty<T> where T : MonoBehaviour, ISingleton Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose()"
+  },
+  "api/QFramework.PersistentMonoSingleton-1.html": {
+    "href": "api/QFramework.PersistentMonoSingleton-1.html",
+    "title": "Class PersistentMonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class PersistentMonoSingleton<T> Inheritance object PersistentMonoSingleton<T> Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public abstract class PersistentMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields mEnabled Declaration protected bool mEnabled Field Value Type Description bool mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/QFramework.ReplaceableMonoSingleton-1.html": {
+    "href": "api/QFramework.ReplaceableMonoSingleton-1.html",
+    "title": "Class ReplaceableMonoSingleton<T> | 兵棋项目API文档",
+    "keywords": "Class ReplaceableMonoSingleton<T> Inheritance object ReplaceableMonoSingleton<T> Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public class ReplaceableMonoSingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Fields InitializationTime Declaration public float InitializationTime Field Value Type Description float mInstance Declaration protected static T mInstance Field Value Type Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/QFramework.ScriptableSingletonProperty-1.html": {
+    "href": "api/QFramework.ScriptableSingletonProperty-1.html",
+    "title": "Class ScriptableSingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class ScriptableSingletonProperty<T> Inheritance object ScriptableSingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public class ScriptableSingletonProperty<T> where T : ScriptableObject Type Parameters Name Description T Fields ScriptableLoader Declaration public static Func<string, T> ScriptableLoader Field Value Type Description Func<, ><string, T> Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() Declaration public static void Dispose() InstanceWithLoader(Func<string, T>) Declaration public static T InstanceWithLoader(Func<string, T> loader) Parameters Type Name Description Func<, ><string, T> loader Returns Type Description T"
+  },
+  "api/QFramework.Singleton-1.html": {
+    "href": "api/QFramework.Singleton-1.html",
+    "title": "Class Singleton<T> | 兵棋项目API文档",
+    "keywords": "Class Singleton<T> Inheritance object Singleton<T> Implements ISingleton Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public abstract class Singleton<T> : ISingleton where T : Singleton<T> Type Parameters Name Description T Fields mInstance 静态实例 Declaration protected static T mInstance Field Value Type Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public virtual void Dispose() OnSingletonInit() 单例初始化方法 Declaration public virtual void OnSingletonInit() Implements ISingleton"
+  },
+  "api/QFramework.SingletonProperty-1.html": {
+    "href": "api/QFramework.SingletonProperty-1.html",
+    "title": "Class SingletonProperty<T> | 兵棋项目API文档",
+    "keywords": "Class SingletonProperty<T> Inheritance object SingletonProperty<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: QFramework Assembly: cs.temp.dll.dll Syntax public static class SingletonProperty<T> where T : class, ISingleton Type Parameters Name Description T Properties Instance 静态属性 Declaration public static T Instance { get; } Property Value Type Description T Methods Dispose() 资源释放 Declaration public static void Dispose()"
   },
   "api/System.Collections.Generic.html": {
     "href": "api/System.Collections.Generic.html",
@@ -178,16 +183,6 @@
     "href": "api/System.Collections.Generic.PriorityQueue-2.UnorderedItemsCollection.html",
     "title": "Class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection | 兵棋项目API文档",
     "keywords": "Class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Enumerates the contents of a PriorityQueue<TElement, TPriority>, without any ordering guarantees. Inheritance object PriorityQueue<TElement, TPriority>.UnorderedItemsCollection Implements System.Collections.Generic.IReadOnlyCollection<T><(TElement Element, TPriority Priority)> System.Collections.Generic.IEnumerable<T><(TElement Element, TPriority Priority)> System.Collections.ICollection System.Collections.IEnumerable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: System.System.Collections.Generic Assembly: cs.temp.dll.dll Syntax public sealed class PriorityQueue<TElement, TPriority>.UnorderedItemsCollection : IReadOnlyCollection<(TElement Element, TPriority Priority)>, IEnumerable<(TElement Element, TPriority Priority)>, ICollection, IEnumerable Properties Count Declaration public int Count { get; } Property Value Type Description int Methods GetEnumerator() Returns an enumerator that iterates through the UnorderedItems. Declaration public PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator GetEnumerator() Returns Type Description PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator An PriorityQueue<TElement, TPriority>.UnorderedItemsCollection.Enumerator for the UnorderedItems. Explicit Interface Implementations IEnumerable<(TElement Element, TPriority Priority)>.GetEnumerator() Declaration IEnumerator<(TElement Element, TPriority Priority)> IEnumerable<(TElement Element, TPriority Priority)>.GetEnumerator() Returns Type Description System.Collections.Generic.IEnumerator<T><(TElement Element, TPriority Priority)> ICollection.CopyTo(Array, int) Declaration void ICollection.CopyTo(Array array, int index) Parameters Type Name Description System.Array array int index ICollection.IsSynchronized Declaration bool ICollection.IsSynchronized { get; } Returns Type Description bool ICollection.SyncRoot Declaration object ICollection.SyncRoot { get; } Returns Type Description object IEnumerable.GetEnumerator() Declaration IEnumerator IEnumerable.GetEnumerator() Returns Type Description System.Collections.IEnumerator Implements System.Collections.Generic.IReadOnlyCollection<T> System.Collections.Generic.IEnumerable<T> System.Collections.ICollection System.Collections.IEnumerable"
-  },
-  "api/SystemExtension.ArgumentExceptionExtention.html": {
-    "href": "api/SystemExtension.ArgumentExceptionExtention.html",
-    "title": "Class ArgumentExceptionExtention | 兵棋项目API文档",
-    "keywords": "Class ArgumentExceptionExtention Inheritance object ArgumentExceptionExtention Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: SystemExtension Assembly: cs.temp.dll.dll Syntax public static class ArgumentExceptionExtention Methods ThrowIfNegative(int, string) Throws an if value is negative. Declaration public static void ThrowIfNegative(int value, string paramName = null) Parameters Type Name Description int value The argument to validate as non-negative. string paramName The name of the parameter with which value corresponds. ThrowIfNull(object?, string?) Declaration public static void ThrowIfNull(object? argument, string? paramName = null) Parameters Type Name Description object argument string paramName"
-  },
-  "api/SystemExtension.html": {
-    "href": "api/SystemExtension.html",
-    "title": "Namespace SystemExtension | 兵棋项目API文档",
-    "keywords": "Namespace SystemExtension Classes ArgumentExceptionExtention"
   },
   "api/TMPro.Examples.Benchmark01_UGUI.html": {
     "href": "api/TMPro.Examples.Benchmark01_UGUI.html",

@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CameraMove.html",
-          "hash": "Ta7jZk4vq83IvgoivkbWBwmM9mdF6ed12eFzMUu9/VE="
+          "hash": "tu3usc+C/ixDbyRpito6CQzpLHl5Sc+SJTNa1rSm+Fw="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameController.html",
-          "hash": "vBoz8vODQ7hHw4A5If+lasGEJTkqK7hj14IQLzXelXA="
+          "hash": "DovOotT98Wxnz/RmtgaUtONjSplDPridm6aI/epm6t4="
         }
       },
       "is_incremental": false,
@@ -108,119 +108,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.ISingleton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.ISingleton.html",
-          "hash": "y+A9Hkv72rtfJFttO6mPSodiTA3X32C2RGG4wH/rMrM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Global.MapHexElement.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.MapHexElement.html",
-          "hash": "3b+a417Mro5c6FRvzA8EPgDRv55XUIAdzMOuJgz7NMc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.MonoSingleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.MonoSingleton-1.html",
-          "hash": "9y4+eSjO1mn3Pc9tXFtPb4D6m6ZeEESNxmB3twh8tqc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.MonoSingletonPathAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.MonoSingletonPathAttribute.html",
-          "hash": "QQ4V9REM0UBJR4aQsU29ZdRH4ySb24uMbc+sxu+64nU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.MonoSingletonProperty-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.MonoSingletonProperty-1.html",
-          "hash": "P8WO7k4GJBcQN5dJzBckEUCTeqSnLhbt57ZQlRhkFeI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.PersistentMonoSingleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.PersistentMonoSingleton-1.html",
-          "hash": "QPsHii7S/j+feuubJudGEWxEbn1868V0NViCiANlpro="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.ReplaceableMonoSingleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.ReplaceableMonoSingleton-1.html",
-          "hash": "E3cj15998XwAl1l2xCKSHMJQOIf062KBFr6ES79WW2k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.ScriptableSingletonProperty-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.ScriptableSingletonProperty-1.html",
-          "hash": "gNa40BAyqUAdB33tjv76eoTJSU2tdZMHRWfnk4H+hVw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.Singleton-1.html",
-          "hash": "S1KK0dVzEqWpcORgqWm79aA98+zcaIEL0IEOkx0kBp4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.SingletonProperty-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.SingletonProperty-1.html",
-          "hash": "nY97C+1fxh+tGYA+HUaEtqF6z9pO/C/PkV1lZRV3uvE="
+          "hash": "FQZTL7X7LMXcv8+vgy/CMjlzYVhP6FppHWetzQsG/G4="
         }
       },
       "is_incremental": false,
@@ -244,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "F7ytUdP+qefCuxp1l/f5MRN4I3Xj/npCMa0pe+6Dj3w="
+          "hash": "fRG+W5Y2Ihy3lLIFp/ww4ElS5HSq5fO1Ro00BHZzaGI="
         }
       },
       "is_incremental": false,
@@ -256,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.GeneralPanel.html",
-          "hash": "LbupYR2U8eXR95oESlVZuaSufWtwsbDohyUpXj61CTI="
+          "hash": "/PCZeOYI+N54wYbP1M4YpwMN4eowTbvst4DbTJQa6U8="
         }
       },
       "is_incremental": false,
@@ -268,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.ISaveLoadSystem.html",
-          "hash": "b/5Xaw+PDP+jfWdY3eHN61eD9Xwb5Bth39HTPaRJdFA="
+          "hash": "NNFPerghI9UVpKBBVOztYZ1+zjvUx15xKuTR1jThxeI="
         }
       },
       "is_incremental": false,
@@ -280,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.LoadPanel.html",
-          "hash": "UkzkRRKpe6c+MEgllRqe/IMIl/HAdqBk7e453Nuo14w="
+          "hash": "vP8MndRhVGy6/j0vipS/bJ9YhXbFBxPUOTTfjlgumbA="
         }
       },
       "is_incremental": false,
@@ -304,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.MapManager.html",
-          "hash": "SWKsrS9QwddySX0YfgJzvuhmy+DW5OtRtvBjoXgsot0="
+          "hash": "Oq0V/iVJ0hniZx6xLtV3lS3XEuziL33hjT6eX8zzMqY="
         }
       },
       "is_incremental": false,
@@ -352,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.SaveLoadSystem.html",
-          "hash": "6+6uOUIPvDMvyQMWqNNCCe9T7w+o8tDgCsIZz9aRASo="
+          "hash": "QOVFys6kSKsUsiKDLUDPu6Us4fT6jeRxA7UslV9t6js="
         }
       },
       "is_incremental": false,
@@ -400,7 +292,127 @@
       "output": {
         ".html": {
           "relative_path": "api/MilitaryGame.MapEditor.html",
-          "hash": "AEOEX/1jNHm34qJO8dm/3XIP9zrKZs5K+3VBpg9xN00="
+          "hash": "duEHFN5kGpB2biP2sbzqrUiiiBXcSolOxXS2sanJ3Rk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.ISingleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.ISingleton.html",
+          "hash": "m8f/4vg/9iy5qvkNLu3UcID7jt2UaEJMZAP6gad11vY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.MonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.MonoSingleton-1.html",
+          "hash": "38np4ky513bj4Mz/k0QuRRbqbuW3i/E5Up3T0mOfw2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.MonoSingletonPathAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.MonoSingletonPathAttribute.html",
+          "hash": "OfGm3fzDfpf9eKazmUlhJy1DE6KV433/6MmX42tv/IM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.MonoSingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.MonoSingletonProperty-1.html",
+          "hash": "Fv1yjU+8WhU1hZpX6ny1wbhRWjP0m90sF/Jq/1yeGzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.PersistentMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.PersistentMonoSingleton-1.html",
+          "hash": "g4q9AfTdJyY867Kydi8QREHcpLjdlOGdWIFLmTGvBfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.ReplaceableMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.ReplaceableMonoSingleton-1.html",
+          "hash": "aiceouqzE1mdLhvzpKrO3LLOakBZ5uxQmfMl2xqu2sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.ScriptableSingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.ScriptableSingletonProperty-1.html",
+          "hash": "PP50l/h80boA8qz/Ccn+jSzx3E6cV/VNj7CxTtApHT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.Singleton-1.html",
+          "hash": "lo3RwJUBwCmj2QrXisDFfO2rY6auLJuwR4hywHWwOJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.SingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.SingletonProperty-1.html",
+          "hash": "yz7GKd3jhzFNjHs7yk+xJ90G0CJCUINNAe//ALsV1uA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QFramework.html",
+          "hash": "mh5c94nJ8j1pPXDfZ4FZLr/O97i7AO3CoaL96yT9eAY="
         }
       },
       "is_incremental": false,
@@ -449,30 +461,6 @@
         ".html": {
           "relative_path": "api/System.Collections.Generic.html",
           "hash": "bQyn8OS3Y8YuM643W2+jda0DpN2ytccO3m2vVSjh55Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SystemExtension.ArgumentExceptionExtention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SystemExtension.ArgumentExceptionExtention.html",
-          "hash": "wbsnXuTAZ1ZfqiJIW/6Mwn7Zj7rJTCEo3iShc2V01e8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SystemExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SystemExtension.html",
-          "hash": "YXL7yO/mibx0eYyZputT58TriYBYXraMI/OsjdUcaho="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LGbnziOmIsYcmcpyGuk5l5yIqefEOxY6T6cBCEz7B+c="
+          "hash": "F8qnEIuofLJmxONpnP+IyuAa6bXfvpCOUWU22cd3h6o="
         }
       },
       "is_incremental": false,
@@ -1133,7 +1121,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 83,
+          "total_file_count": 82,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
