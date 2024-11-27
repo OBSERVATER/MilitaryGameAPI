@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ScriptableSingletonProperty&lt;T&gt;
+      <title>Class MapHexElement
  | 兵棋项目API文档 </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ScriptableSingletonProperty&lt;T&gt;
+      <meta name="title" content="Class MapHexElement
  | 兵棋项目API文档 ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,49 +77,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="QFramework.ScriptableSingletonProperty`1">
+            <article class="content wrap" id="_content" data-uid="MilitaryGame.MapHexElement">
 
 
-  <h1 id="QFramework_ScriptableSingletonProperty_1" data-uid="QFramework.ScriptableSingletonProperty`1" class="text-break">Class ScriptableSingletonProperty&lt;T&gt;
+  <h1 id="MilitaryGame_MapHexElement" data-uid="MilitaryGame.MapHexElement" class="text-break">Class MapHexElement
 </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>把一个六角格的地形、建筑、河流、道路等信息展示出来</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">ScriptableSingletonProperty&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">MapHexElement</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="QFramework.html">QFramework</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MilitaryGame.html">MilitaryGame</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="QFramework_ScriptableSingletonProperty_1_syntax">Syntax</h5>
+  <h5 id="MilitaryGame_MapHexElement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScriptableSingletonProperty&lt;T&gt; where T : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapHexElement</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
 </h3>
 
 
-  <h4 id="QFramework_ScriptableSingletonProperty_1_ScriptableLoader" data-uid="QFramework.ScriptableSingletonProperty`1.ScriptableLoader">ScriptableLoader</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="MilitaryGame_MapHexElement_sideRiverDic" data-uid="MilitaryGame.MapHexElement.sideRiverDic">sideRiverDic</h4>
+  <div class="markdown level1 summary"><p>记录相邻格子的六边有无河流</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Func&lt;string, T&gt; ScriptableLoader</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;GridDirection, RiverType&gt; sideRiverDic</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,22 +118,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func&lt;, &gt;</span>&lt;<span class="xref">string</span>, T&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;<a class="xref" href="MilitaryGame.GridDirection.html">GridDirection</a>, <a class="xref" href="MilitaryGame.RiverType.html">RiverType</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 id="MilitaryGame_MapHexElement_sideRiverDic_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>TKey GridDirection枚举 <br>
+TValue RiverType枚举</p>
+</div>
   <h3 id="properties">Properties
 </h3>
 
 
-  <a id="QFramework_ScriptableSingletonProperty_1_Instance_" data-uid="QFramework.ScriptableSingletonProperty`1.Instance*"></a>
-  <h4 id="QFramework_ScriptableSingletonProperty_1_Instance" data-uid="QFramework.ScriptableSingletonProperty`1.Instance">Instance</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="MilitaryGame_MapHexElement_construction_" data-uid="MilitaryGame.MapHexElement.construction*"></a>
+  <h4 id="MilitaryGame_MapHexElement_construction" data-uid="MilitaryGame.MapHexElement.construction">construction</h4>
+  <div class="markdown level1 summary"><p>建筑</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int construction { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,51 +150,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
+        <td><span class="xref">int</span></td>
+        <td><p>int</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
 
 
-  <a id="QFramework_ScriptableSingletonProperty_1_Dispose_" data-uid="QFramework.ScriptableSingletonProperty`1.Dispose*"></a>
-  <h4 id="QFramework_ScriptableSingletonProperty_1_Dispose" data-uid="QFramework.ScriptableSingletonProperty`1.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="MilitaryGame_MapHexElement_isAdjacentRouteCovered_" data-uid="MilitaryGame.MapHexElement.isAdjacentRouteCovered*"></a>
+  <h4 id="MilitaryGame_MapHexElement_isAdjacentRouteCovered" data-uid="MilitaryGame.MapHexElement.isAdjacentRouteCovered">isAdjacentRouteCovered</h4>
+  <div class="markdown level1 summary"><p>有无通向周边的路</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool[] isAdjacentRouteCovered { get; set; }</code></pre>
   </div>
-
-
-  <a id="QFramework_ScriptableSingletonProperty_1_InstanceWithLoader_" data-uid="QFramework.ScriptableSingletonProperty`1.InstanceWithLoader*"></a>
-  <h4 id="QFramework_ScriptableSingletonProperty_1_InstanceWithLoader_Func_System_String__0__" data-uid="QFramework.ScriptableSingletonProperty`1.InstanceWithLoader(Func{System.String,`0})">InstanceWithLoader(Func&lt;string, T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T InstanceWithLoader(Func&lt;string, T&gt; loader)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func&lt;, &gt;</span>&lt;<span class="xref">string</span>, T&gt;</td>
-        <td><span class="parametername">loader</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -212,8 +177,114 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">bool</span>[]</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_MapHexElement_isRouteCovered_" data-uid="MilitaryGame.MapHexElement.isRouteCovered*"></a>
+  <h4 id="MilitaryGame_MapHexElement_isRouteCovered" data-uid="MilitaryGame.MapHexElement.isRouteCovered">isRouteCovered</h4>
+  <div class="markdown level1 summary"><p>这个格子是否建了路</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRouteCovered { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_MapHexElement_isWideRoad_" data-uid="MilitaryGame.MapHexElement.isWideRoad*"></a>
+  <h4 id="MilitaryGame_MapHexElement_isWideRoad" data-uid="MilitaryGame.MapHexElement.isWideRoad">isWideRoad</h4>
+  <div class="markdown level1 summary"><p>是否为大路</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isWideRoad { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_MapHexElement_position_" data-uid="MilitaryGame.MapHexElement.position*"></a>
+  <h4 id="MilitaryGame_MapHexElement_position" data-uid="MilitaryGame.MapHexElement.position">position</h4>
+  <div class="markdown level1 summary"><p>相对坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2Int position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><p>Vector2Int</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_MapHexElement_terrain_" data-uid="MilitaryGame.MapHexElement.terrain*"></a>
+  <h4 id="MilitaryGame_MapHexElement_terrain" data-uid="MilitaryGame.MapHexElement.terrain">terrain</h4>
+  <div class="markdown level1 summary"><p>地形类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerrainType terrain { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.TerrainType.html">TerrainType</a></td>
+        <td><p>TerrainType</p>
+</td>
       </tr>
     </tbody>
   </table>

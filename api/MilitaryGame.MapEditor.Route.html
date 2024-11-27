@@ -90,7 +90,7 @@
     <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">Route</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <span class="xref">MilitaryGame</span>.<a class="xref" href="MilitaryGame.MapEditor.html">MapEditor</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MilitaryGame.html">MilitaryGame</a>.<a class="xref" href="MilitaryGame.MapEditor.html">MapEditor</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MilitaryGame_MapEditor_Route_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -98,6 +98,31 @@
   </div>
   <h3 id="fields">Fields
 </h3>
+
+
+  <h4 id="MilitaryGame_MapEditor_Route_isAdjacentRouteCovered" data-uid="MilitaryGame.MapEditor.Route.isAdjacentRouteCovered">isAdjacentRouteCovered</h4>
+  <div class="markdown level1 summary"><p>有没有建通向邻边格子的路</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool[] isAdjacentRouteCovered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <h4 id="MilitaryGame_MapEditor_Route_isRouteCovered" data-uid="MilitaryGame.MapEditor.Route.isRouteCovered">isRouteCovered</h4>
@@ -193,7 +218,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.HexGrid.html">HexGrid</a></td>
+        <td><a class="xref" href="MilitaryGame.HexGrid.html">HexGrid</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -203,14 +228,31 @@
 
 
   <a id="MilitaryGame_MapEditor_Route_Create_" data-uid="MilitaryGame.MapEditor.Route.Create*"></a>
-  <h4 id="MilitaryGame_MapEditor_Route_Create" data-uid="MilitaryGame.MapEditor.Route.Create">Create()</h4>
-  <div class="markdown level1 summary"><p>创建此格的路</p>
+  <h4 id="MilitaryGame_MapEditor_Route_Create_MilitaryGame_GridDirection_" data-uid="MilitaryGame.MapEditor.Route.Create(MilitaryGame.GridDirection)">Create(GridDirection)</h4>
+  <div class="markdown level1 summary"><p>创建此格的路,只更新数据，显示更新在UpdateView</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Create()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Create(GridDirection dir)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.GridDirection.html">GridDirection</a></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="MilitaryGame_MapEditor_Route_Destroy_" data-uid="MilitaryGame.MapEditor.Route.Destroy*"></a>
@@ -226,7 +268,8 @@
 
   <a id="MilitaryGame_MapEditor_Route_Switch_" data-uid="MilitaryGame.MapEditor.Route.Switch*"></a>
   <h4 id="MilitaryGame_MapEditor_Route_Switch" data-uid="MilitaryGame.MapEditor.Route.Switch">Switch()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>切换大/小路</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">

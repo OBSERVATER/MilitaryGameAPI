@@ -1,0 +1,513 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class HexGrid
+ | 兵棋项目API文档 </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class HexGrid
+ | 兵棋项目API文档 ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MilitaryGame.HexGrid">
+
+
+  <h1 id="MilitaryGame_HexGrid" data-uid="MilitaryGame.HexGrid" class="text-break">Class HexGrid
+</h1>
+  <div class="markdown level0 summary"><p>格子</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">HexGrid</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MilitaryGame.html">MilitaryGame</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="MilitaryGame_HexGrid_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HexGrid : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="MilitaryGame_HexGrid_construction" data-uid="MilitaryGame.HexGrid.construction">construction</h4>
+  <div class="markdown level1 summary"><p>该格的建筑建筑</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int construction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="MilitaryGame_HexGrid_mapHexElement" data-uid="MilitaryGame.HexGrid.mapHexElement">mapHexElement</h4>
+  <div class="markdown level1 summary"><p>六角格信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapHexElement mapHexElement</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.MapHexElement.html">MapHexElement</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="MilitaryGame_HexGrid_RedBorder" data-uid="MilitaryGame.HexGrid.RedBorder">RedBorder</h4>
+  <div class="markdown level1 summary"><p>选中框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject RedBorder</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="MilitaryGame_HexGrid_rivers" data-uid="MilitaryGame.HexGrid.rivers">rivers</h4>
+  <div class="markdown level1 summary"><p>用来存放河流物体，改变sprite来改变河流</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; rivers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="MilitaryGame_HexGrid_terrain" data-uid="MilitaryGame.HexGrid.terrain">terrain</h4>
+  <div class="markdown level1 summary"><p>该格的地形</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerrainType terrain</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.TerrainType.html">TerrainType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="MilitaryGame_HexGrid_terrainRenderer" data-uid="MilitaryGame.HexGrid.terrainRenderer">terrainRenderer</h4>
+  <div class="markdown level1 summary"><p>地形图片控制</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer terrainRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="MilitaryGame_HexGrid_position_" data-uid="MilitaryGame.HexGrid.position*"></a>
+  <h4 id="MilitaryGame_HexGrid_position" data-uid="MilitaryGame.HexGrid.position">position</h4>
+  <div class="markdown level1 summary"><p>地图的坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2Int position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><p>Vector2Int (x,y)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="MilitaryGame_HexGrid_GetAdjacentGrid_" data-uid="MilitaryGame.HexGrid.GetAdjacentGrid*"></a>
+  <h4 id="MilitaryGame_HexGrid_GetAdjacentGrid_MilitaryGame_GridDirection_" data-uid="MilitaryGame.HexGrid.GetAdjacentGrid(MilitaryGame.GridDirection)">GetAdjacentGrid(GridDirection)</h4>
+  <div class="markdown level1 summary"><p>根据方向获取相邻格子</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HexGrid GetAdjacentGrid(GridDirection dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.GridDirection.html">GridDirection</a></td>
+        <td><span class="parametername">dir</span></td>
+        <td><p>方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.HexGrid.html">HexGrid</a></td>
+        <td><p>格子的数据</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_HexGrid_GetAdjacentGrids_" data-uid="MilitaryGame.HexGrid.GetAdjacentGrids*"></a>
+  <h4 id="MilitaryGame_HexGrid_GetAdjacentGrids" data-uid="MilitaryGame.HexGrid.GetAdjacentGrids">GetAdjacentGrids()</h4>
+  <div class="markdown level1 summary"><p>获取相邻的所有格子</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HexGrid[] GetAdjacentGrids()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.HexGrid.html">HexGrid</a>[]</td>
+        <td><p>相邻的所有格子数据</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_HexGrid_GetGridDirection_" data-uid="MilitaryGame.HexGrid.GetGridDirection*"></a>
+  <h4 id="MilitaryGame_HexGrid_GetGridDirection_MilitaryGame_HexGrid_" data-uid="MilitaryGame.HexGrid.GetGridDirection(MilitaryGame.HexGrid)">GetGridDirection(HexGrid)</h4>
+  <div class="markdown level1 summary"><p>获取当前格子相对于其他格子的方向</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GridDirection GetGridDirection(HexGrid other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.HexGrid.html">HexGrid</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>目标格子</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MilitaryGame.GridDirection.html">GridDirection</a></td>
+        <td><p>方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MilitaryGame_HexGrid_GetGridDirection_MilitaryGame_HexGrid__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>对于这种方法的性能消耗表示存疑</p>
+</div>
+
+
+  <a id="MilitaryGame_HexGrid_OnSelected_" data-uid="MilitaryGame.HexGrid.OnSelected*"></a>
+  <h4 id="MilitaryGame_HexGrid_OnSelected" data-uid="MilitaryGame.HexGrid.OnSelected">OnSelected()</h4>
+  <div class="markdown level1 summary"><p>当此格被选中/取消选中时调用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelected()</code></pre>
+  </div>
+
+
+  <a id="MilitaryGame_HexGrid_SetBorderStatus_" data-uid="MilitaryGame.HexGrid.SetBorderStatus*"></a>
+  <h4 id="MilitaryGame_HexGrid_SetBorderStatus_System_Boolean_" data-uid="MilitaryGame.HexGrid.SetBorderStatus(System.Boolean)">SetBorderStatus(bool)</h4>
+  <div class="markdown level1 summary"><p>设置该格的显示状态，若显示状态与实际显示状态不同以isShow为准</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBorderStatus(bool isShow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">isShow</span></td>
+        <td><p>是否显示</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="MilitaryGame_HexGrid_SetMapHexElement_" data-uid="MilitaryGame.HexGrid.SetMapHexElement*"></a>
+  <h4 id="MilitaryGame_HexGrid_SetMapHexElement_System_Int32_System_Int32_" data-uid="MilitaryGame.HexGrid.SetMapHexElement(System.Int32,System.Int32)">SetMapHexElement(int, int)</h4>
+  <div class="markdown level1 summary"><p>设置数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMapHexElement(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>横坐标</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>纵坐标</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      DGUT-MilitaryGame API Document
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
